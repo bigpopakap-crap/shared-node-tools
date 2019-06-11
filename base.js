@@ -38,6 +38,7 @@ module.exports = {
         patterns: ['\\*']
       }
     ],
+    'import/no-duplicates': 'error',
 
     'prettier/prettier': [
       'error',
