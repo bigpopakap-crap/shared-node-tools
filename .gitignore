@@ -1,0 +1,17 @@
+# OS stuff
+.DS_Store
+
+# editors
+.idea/
+
+# dependencies
+node_modules/
+
+# configs
+.env
+.env.*
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
