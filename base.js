@@ -31,15 +31,18 @@ module.exports = {
     'no-unused-vars': 'off',
     'typescript/no-unused-vars': 'error',
 
+    // import rules
     'import/order': ['error', { 'newlines-between': 'always' }],
     'no-restricted-imports': [
       'error',
       {
+        // disallow "import * from"
         patterns: ['\\*']
       }
     ],
     'import/no-duplicates': 'error',
 
+    // code style
     'prettier/prettier': [
       'error',
       {
