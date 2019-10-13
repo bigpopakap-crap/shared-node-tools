@@ -4,5 +4,17 @@
   "scripts": {
     "lint": "yarn eslint --ext json,js,jsx,ts,d.ts,tsx ./",
     "lint:fix": "yarn lint --fix"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-css-modules": "^2.11.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-json": "^1.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "prettier": "^1.18.2"
   }
 }
