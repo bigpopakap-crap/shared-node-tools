@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "workspaces": [
-    "eslint-config-bigpopakap"
+    "eslint-config-bigpopakap",
+    "stylelint-config-bigpopakap"
   ]
 }
