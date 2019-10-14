@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bigpopakap",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "scripts": {
     "lint": "yarn eslint --ext json,js,jsx,ts,d.ts,tsx ./",
     "lint:fix": "yarn lint --fix"
