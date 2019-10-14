@@ -17,12 +17,11 @@ npx install-peerdeps --yarn --dev --only-peers stylelint-config-bigpopakap
 
 ## Configuration
 
-Add the following `.eslintrc.js` to your project. *Important*: remember to
-update `bigpopakap/base` to `bigpopakap/node` or `bigpopakap/react` or any other flavor,
-depending on what kind of project you have.
+Add the following `.eslintrc.js` to your project.
 ```js
 module.exports = {
   extends: [
+    // Update to `/node`, `/react`, or another flavor, depending on what kind of project you have.
     'bigpopakap/base'
   ],
 
@@ -44,6 +43,7 @@ depending on what kind of project you have.
 ```js
 module.exports = {
   "extends": [
+    // Update `/react-styled-components` or another flavor, depending on what kind of project you have.
     "stylelint-config-bigpopakap/base"
   ]
 };
