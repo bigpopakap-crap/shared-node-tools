@@ -1,5 +1,11 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "assignees": [
+    "bigpopakap"
+  ],
+  "automerge": true,
+  "requiredStatusChecks": null,
+  "semanticCommits": true
 }
