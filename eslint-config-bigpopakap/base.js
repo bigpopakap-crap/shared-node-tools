@@ -42,6 +42,13 @@ module.exports = {
     ],
     'import/no-duplicates': 'error',
 
+    // explicit function return types
+    '@typescript-eslint/explicit-function-return-type': ['error', {
+      // allow something like `node.addEventListener('click', () => {});`
+      // see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md#allowexpressions
+      allowExpressions: true
+    }],
+
     // code style
     'prettier/prettier': [
       'error',
