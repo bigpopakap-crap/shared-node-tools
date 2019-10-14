@@ -37,9 +37,7 @@ module.exports = {
 };
 ```
 
-Add the following `.stylelintrc.js` to your project. *Important*: remember to
-update `/base` to `/react-styled-components` or any other flavor,
-depending on what kind of project you have.
+Add the following `.stylelintrc.js` to your project.
 ```js
 module.exports = {
   "extends": [
