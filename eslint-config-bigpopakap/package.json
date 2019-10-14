@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bigpopakap",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "2.4.0",
     "@typescript-eslint/parser": "2.4.0",
