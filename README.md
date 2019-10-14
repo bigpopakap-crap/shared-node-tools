@@ -1,7 +1,9 @@
-eslint-config-bigpopakap
+{stylelint,eslint}-config-bigpopakap
 ========================
 
-# Installation
+# Usage
+
+## Installation
 
 ```bash
 yarn add -D eslint-config-bigpopakap
@@ -13,7 +15,7 @@ npx install-peerdeps --yarn --dev --only-peers eslint-config-bigpopakap
 npx install-peerdeps --yarn --dev --only-peers stylelint-config-bigpopakap
 ```
 
-# Using in your project
+## Configuration
 
 Add the following `.eslintrc.js` to your project. *Important*: remember to
 update `bigpopakap/base` to `bigpopakap/node` or `bigpopakap/react` or any other flavor,
@@ -46,6 +48,8 @@ module.exports = {
   ]
 };
 ```
+
+## Useful scripts
 
 You may want to add the following scripts to your `package.json`
 ```json
