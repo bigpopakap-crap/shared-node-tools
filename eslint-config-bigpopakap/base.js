@@ -30,6 +30,7 @@ module.exports = {
     // replace the base rule with the typescript one so that it knows when type imports are used
     'no-unused-vars': 'off',
     'typescript/no-unused-vars': 'error',
+    '@typescript-eslint/no-unused-vars': 'error',
 
     // import rules
     'import/order': ['error', { 'newlines-between': 'always' }],
