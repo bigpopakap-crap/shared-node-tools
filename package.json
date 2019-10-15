@@ -5,5 +5,23 @@
   "workspaces": [
     "eslint-config-bigpopakap",
     "stylelint-config-bigpopakap"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.2.0",
+    "@commitlint/config-conventional": "8.2.0",
+    "@commitlint/travis-cli": "8.2.0",
+    "cz-conventional-changelog": "3.0.2",
+    "husky": "3.0.9"
+  }
 }
