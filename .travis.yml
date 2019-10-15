@@ -10,7 +10,7 @@ jobs:
       script: commitlint-travis
     - stage: "Publish"
       name: "Run semantic release on all packages"
-      script: semantic-release -e semantic-release-monorepo
+      script: semantic-release
 
 notifications:
   email: false
