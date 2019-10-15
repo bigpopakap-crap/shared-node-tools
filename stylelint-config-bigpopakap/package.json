@@ -1,6 +1,12 @@
 {
   "name": "stylelint-config-bigpopakap",
   "version": "1.0.0",
+  "description": "ESLint configurations for bigpopakap's personal projects",
+  "homepage": "https://github.com/bigpopakap/linting-config",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/bigpopakap/linting-config"
+  },
   "peerDependencies": {
     "stylelint": "11.1.1",
     "stylelint-config-standard": "19.0.0",

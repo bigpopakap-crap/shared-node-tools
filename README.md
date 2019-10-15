@@ -1,64 +1,16 @@
-{stylelint,eslint}-config-bigpopakap
-========================
+linting-config
+==============
 
-# Usage
+This monorepo has linting configurations for bigpopakap's Typescript/JS/React/Express projects.
+In the future, this may hold other common configurations, like semantic commit formats, Renovate configs, etc.
 
-## Installation
-
-```bash
-yarn add -D eslint-config-bigpopakap
-yarn add -D stylelint-config-bigpopakap
-
-# It's ok to use npx. It will detect and ask if it should use yarn
-# Optionally use the following arg: --extra-args "--ignore-engines"
-npx install-peerdeps --yarn --dev --only-peers eslint-config-bigpopakap
-npx install-peerdeps --yarn --dev --only-peers stylelint-config-bigpopakap
-```
-
-## Configuration
-
-Add the following `.eslintrc.js` to your project.
-```js
-module.exports = {
-  extends: [
-    // Update to `/node`, `/react`, or another flavor, depending on what kind of project you have.
-    'bigpopakap/base'
-  ],
-
-  // Optional, but useful to help ESLint resolve absolute path imports,
-  // matching whatever path is in your `tsconfig.json#compilerOptions#baseUrl`.
-  settings: {
-    "import/resolver": {
-      node: {
-        paths: ["src"]
-      }
-    },
-  }
-};
-```
-
-Add the following `.stylelintrc.js` to your project.
-```js
-module.exports = {
-  "extends": [
-    // Update `/react-styled-components` or another flavor, depending on what kind of project you have.
-    "stylelint-config-bigpopakap/base"
-  ]
-};
-```
-
-## Useful scripts
-
-You may want to add the following scripts to your `package.json`
-```json
-{
-  "scripts": {
-    "lint": "npm-run-all -c lint:*",
-    "lintfix": "npm-run-all -c lint:*:fix",
-    "lint:js": "yarn eslint --ext json,js,jsx,ts,d.ts,tsx ./",
-    "lint:js:fix": "yarn lint:js --fix",
-    "lint:css": "yarn stylelint src/**/*.{js,jsx,ts,tsx}",
-    "lint:css:fix": "yarn lint:css --fix"
-  }
-}
-```
+This repo is setup up with:
+- Travis CI
+- Enforced semantic commits
+    - `commitizen` for interactive commit message creator
+    - `commitlint` for validation locally with git hooks and on Travis CI
+- Linting, using the configurations defined here itself (how meta!)
+- Auto-publishing of packages with `semantic-release`
+- Automatic updates to package dependencies with RenovateBot
+- Yarn workspaces to share node modules
+- Yarn policy to keep yarn versions in sync across multiple machines
