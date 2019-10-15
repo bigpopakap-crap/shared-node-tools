@@ -5,12 +5,12 @@ node_js:
 
 jobs:
   include:
-    - stage: "Linting"
+    - stage: "Lint"
       name: "Lint commit messages"
       script: commitlint-travis
     - stage: "Publish"
-      name: "Semantic release"
-      script: semantic-release
+      name: "Run semantic release on all packages"
+      script: semantic-release -e semantic-release-monorepo
 
 notifications:
   email: false
