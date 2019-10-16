@@ -1,0 +1,18 @@
+{
+  "name": "renovate-config-bigpopakap",
+  "version": "1.0.0",
+  "description": "Shared RenovateBot configurations for bigpopakap's personal projects",
+  "homepage": "https://github.com/bigpopakap/linting-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigpopakap/linting-config"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base"],
+      "assignees": ["bigpopakap"],
+      "automerge": true,
+      "semanticCommits": true
+    }
+  }
+}
