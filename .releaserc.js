@@ -4,7 +4,16 @@ const output = hooks();
 module.exports = {
   extends: 'semantic-release-monorepo',
   branch: 'master',
-  tagFormat: output.package + 'v${version}',
+
+  /**
+   * NOTE: v{version} should not be interpolated here, because it will be interpolated
+   *       at runtime when the version is known
+   *
+   * IMPORTANT! be ultra careful updating the tag format! this will break semantic-release
+   *            because it won't know what the previously published version was
+   */
+  tagFormat: `${output.package} v\${version\}`,
+
   monorepo: {
     analyzeCommits: [
       '@semantic-release/commit-analyzer'
