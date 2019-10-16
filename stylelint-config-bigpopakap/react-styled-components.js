@@ -143,12 +143,13 @@ module.exports = {
     "stylelint-order"
   ],
   "rules": {
+    // CSS properties ordering
     "order/order": [
       "declarations",
       "rules"
     ],
-    "declaration-empty-line-before": null,
-    "declaration-colon-newline-after": null,
-    "order/properties-order": CSS_RULES_ORDERING
+    "order/properties-order": CSS_RULES_ORDERING,
+    "declaration-empty-line-before": null,    // disable because order/properties-order dictates newline requirements
+    "declaration-colon-newline-after": null,  // disable because order/properties-order dictates newline requirements
   }
 };
