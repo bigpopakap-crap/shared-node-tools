@@ -4,8 +4,8 @@
   "description": "ESLint configurations for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/linting-config",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/bigpopakap/linting-config"
+    "type": "git",
+    "url": "https://github.com/bigpopakap/linting-config"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "2.4.0",
@@ -16,6 +16,7 @@
     "eslint-plugin-css-modules": "2.11.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-json": "1.4.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-typescript": "0.14.0",
     "prettier": "1.18.2"
