@@ -1,7 +1,7 @@
 stylelint-config-bigpopakap
 ===========================
 
-Stylelint configurations for bigpopakap's personal projects.
+Shared Stylelint configurations for bigpopakap's personal projects.
 
 # Usage
 
