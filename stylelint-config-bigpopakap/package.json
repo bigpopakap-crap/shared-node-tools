@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-bigpopakap",
   "version": "1.0.0",
-  "description": "ESLint configurations for bigpopakap's personal projects",
+  "description": "Stylelint configurations for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/linting-config",
   "repository": {
     "type" : "git",

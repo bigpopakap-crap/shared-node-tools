@@ -1,6 +1,8 @@
 eslint-config-bigpopakap
 ========================
 
+ESLint configurations for bigpopakap's personal projects.
+
 # Usage
 
 ## Installation
