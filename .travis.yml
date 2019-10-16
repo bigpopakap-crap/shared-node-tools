@@ -10,7 +10,7 @@ jobs:
       script: commitlint-travis
     - stage: "Publish"
       name: "semantic-release to publish all packages"
-      script: semantic-release
+      script: yarn publish-all
 
 notifications:
   email: false
