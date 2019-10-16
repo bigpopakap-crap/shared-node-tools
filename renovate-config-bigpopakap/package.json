@@ -26,7 +26,10 @@
           "packagePatterns": ["^@semantic-release", "^semantic-release"],
           "groupName": "semantic-release packages"
         }
-      ]
+      ],
+      "peerDependencies": {
+        "enabled": true
+      }
     }
   }
 }
