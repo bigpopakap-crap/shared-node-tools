@@ -4,7 +4,7 @@ const output = hooks();
 module.exports = {
   extends: 'semantic-release-monorepo',
   branch: 'master',
-  tagFormat: 'v${version}',
+  tagFormat: output.package + 'v${version}',
   monorepo: {
     analyzeCommits: [
       '@semantic-release/commit-analyzer'
