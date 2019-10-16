@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v1.0.1](https://github.com/bigpopakap/linting-config/compare/v1.0.0...v1.0.1) (2019-10-16)
+
+
+### Bug Fixes
+
+* **deps:** add missing required peerDependencies ([4609d6b](https://github.com/bigpopakap/linting-config/commit/4609d6bc3899c55f0a647939679b9063c7180e9c))
+
 # eslint-config-bigpopakap-v1.0.0 (2019-10-16)
 
 
