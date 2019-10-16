@@ -14,12 +14,12 @@ module.exports = {
     ]
   },
   verifyConditions: [
-    '@semantic-release/npm',
+    // '@semantic-release/npm',
     '@semantic-release/git'
   ],
   prepare: [
     '@semantic-release/changelog',
-    '@semantic-release/npm',
+    // '@semantic-release/npm',
     {
       'path': '@semantic-release/git',
       'message': 'chore(' + output.package + '): release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
