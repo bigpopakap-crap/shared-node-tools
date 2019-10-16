@@ -12,7 +12,7 @@ module.exports = {
    * IMPORTANT! be ultra careful updating the tag format! this will break semantic-release
    *            because it won't know what the previously published version was
    */
-  tagFormat: `${output.package} v\${version\}`,
+  tagFormat: `v\${version\}-${output.package}`,
 
   monorepo: {
     analyzeCommits: [
