@@ -3,7 +3,7 @@ eslint-config-bigpopakap
 
 Shared ESLint configurations for bigpopakap's personal projects.
 
-# Usage
+# Adding to a new repo
 
 ## Installation
 
