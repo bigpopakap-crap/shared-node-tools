@@ -12,7 +12,21 @@
       "extends": ["config:base"],
       "assignees": ["bigpopakap"],
       "automerge": true,
-      "semanticCommits": true
+      "semanticCommits": true,
+      "packageRules": [
+        {
+          "packagePatterns": ["^eslint"],
+          "groupName": "eslint packages"
+        },
+        {
+          "packagePatterns": ["^styleint"],
+          "groupName": "styelint packages"
+        },
+        {
+          "packagePatterns": ["^@semantic-release", "^semantic-release"],
+          "groupName": "semantic-release packages"
+        }
+      ]
     }
   }
 }
