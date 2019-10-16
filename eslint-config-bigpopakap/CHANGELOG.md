@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v1.0.2](https://github.com/bigpopakap/linting-config/compare/v1.0.1-eslint-config-bigpopakap...v1.0.2-eslint-config-bigpopakap) (2019-10-16)
+
+
+### Bug Fixes
+
+* **readme:** update title ([3e27fe8](https://github.com/bigpopakap/linting-config/commit/3e27fe8b5309b70839954453a314ff0636fb2b9b))
+
 # [eslint-config-bigpopakap-v1.0.1](https://github.com/bigpopakap/linting-config/compare/v1.0.0-eslint-config-bigpopakap...v1.0.1-eslint-config-bigpopakap) (2019-10-16)
 
 
