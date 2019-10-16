@@ -4,6 +4,7 @@
   "private": true,
   "workspaces": [
     "eslint-config-bigpopakap",
+    "renovate-config-bigpopakap",
     "stylelint-config-bigpopakap"
   ],
   "config": {

@@ -1,0 +1,35 @@
+{
+  "name": "renovate-config-bigpopakap",
+  "version": "1.0.0",
+  "description": "Shared RenovateBot configurations for bigpopakap's personal projects",
+  "homepage": "https://github.com/bigpopakap/linting-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigpopakap/linting-config"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base"],
+      "assignees": ["bigpopakap"],
+      "automerge": true,
+      "semanticCommits": true,
+      "packageRules": [
+        {
+          "packagePatterns": ["^eslint"],
+          "groupName": "eslint packages"
+        },
+        {
+          "packagePatterns": ["^styleint"],
+          "groupName": "styelint packages"
+        },
+        {
+          "packagePatterns": ["^@semantic-release", "^semantic-release"],
+          "groupName": "semantic-release packages"
+        }
+      ],
+      "peerDependencies": {
+        "enabled": true
+      }
+    }
+  }
+}
