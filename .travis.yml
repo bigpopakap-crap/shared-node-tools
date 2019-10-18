@@ -6,8 +6,10 @@ node_js:
 jobs:
   include:
     - stage: "Lint"
-      name: "commitlint-travis to verify semantic commit messages"
+      name: "commitlint-travis to lint commit messages"
       script: commitlint-travis
+    - name: "lint code"
+      script: yarn lint
     - stage: "Publish"
       name: "semantic-release to publish all packages"
       script: yarn publish-all

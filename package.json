@@ -13,10 +13,13 @@
     }
   },
   "scripts": {
-    "publish-all": "yarn workspaces run semantic-release"
+    "publish-all": "yarn workspaces run semantic-release",
+    "lint": "yarn eslint-bigpopakap",
+    "lintfix": "yarn lint --fix"
   },
   "husky": {
     "hooks": {
+      "pre-commit": "lint-staged",
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
@@ -33,6 +36,7 @@
     "@semantic-release/release-notes-generator": "7.3.0",
     "cz-conventional-changelog": "3.0.2",
     "husky": "3.0.9",
+    "lint-staged": "9.4.2",
     "semantic-release": "15.13.24",
     "semantic-release-monorepo": "6.1.1",
     "semantic-release-monorepo-hooks": "2.9.5",
