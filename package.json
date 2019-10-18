@@ -13,7 +13,9 @@
     }
   },
   "scripts": {
-    "publish-all": "yarn workspaces run semantic-release"
+    "publish-all": "yarn workspaces run semantic-release",
+    "lint": "yarn eslint-bigpopakap",
+    "lintfix": "yarn lint --fix"
   },
   "husky": {
     "hooks": {
