@@ -9,15 +9,19 @@ Shared ESLint configurations for bigpopakap's personal projects.
 
 ```bash
 yarn add -D eslint-config-bigpopakap
+```
 
-# It's ok to use npx. It will detect and ask if it should use yarn
-# Optionally use the following arg: --extra-args "--ignore-engines"
-npx install-peerdeps --yarn --dev --only-peers eslint-config-bigpopakap
+## Running
+
+Examples of how to run the linter:
+```bash
+yarn eslint-bigpopakap
+yarn eslint-bigpopakap --fix
 ```
 
 ## Configuration
 
-Add the following `.eslintrc.js` to your project.
+Add the following `.eslintrc.js` to your project:
 ```js
 module.exports = {
   extends: [
@@ -39,13 +43,13 @@ module.exports = {
 
 ## Useful scripts
 
-You may want to add the following scripts to your `package.json`
+You may want to add the following scripts to your `package.json`:
 ```json
 {
   "scripts": {
     "lint": "npm-run-all -c lint:*",
     "lintfix": "npm-run-all -c lint:*:fix",
-    "lint:js": "yarn eslint --ext json,js,jsx,ts,d.ts,tsx ./",
+    "lint:js": "yarn eslint-bigpopakap",
     "lint:js:fix": "yarn lint:js --fix",
   }
 }

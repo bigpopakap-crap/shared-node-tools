@@ -7,7 +7,10 @@
     "type": "git",
     "url": "https://github.com/bigpopakap/shared-ts-configs"
   },
-  "peerDependencies": {
+  "bin": {
+    "eslint-bigpopakap": "./bin/eslint-bigpopakap.js"
+  },
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.4.0",
     "@typescript-eslint/parser": "2.4.0",
     "eslint": "6.5.1",
@@ -19,6 +22,9 @@
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-typescript": "0.14.0",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "shelljs": "0.8.3",
+    "typescript": "3.6.4",
+    "yargs": "14.2.0"
   }
 }
