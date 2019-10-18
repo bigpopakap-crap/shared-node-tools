@@ -15,14 +15,10 @@ if (!shell.which('yarn')) {
 }
 
 // Parse the command line arguments
-const args = yargs
-  .array('ext')
-  .default('ext', ['json', 'js', 'jsx', 'ts', 'd.ts', 'tsx'])
-  .boolean('fix')
-  .default('fix', false).argv;
+const args = yargs.boolean('fix').default('fix', false).argv;
 
 // Prepare the arguments to pass to eslint
-const extOut = `--ext ${args.ext.join(',')}`;
+const extOut = `--ext json,js,jsx,ts,d.ts,tsx`;
 const fixOut = args.fix ? '--fix' : '';
 const fileOut = './';
 
