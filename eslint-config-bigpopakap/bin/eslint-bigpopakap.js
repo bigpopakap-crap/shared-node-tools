@@ -3,7 +3,7 @@
  * @fileoverview This simply delegates to eslint
  * @author bigpopakap
  */
-"use strict";
+'use strict';
 
 const shell = require('shelljs');
 const yargs = require('yargs');
@@ -19,8 +19,7 @@ const args = yargs
   .array('ext')
   .default('ext', ['json', 'js', 'jsx', 'ts', 'd.ts', 'tsx'])
   .boolean('fix')
-  .default('fix', false)
-  .argv;
+  .default('fix', false).argv;
 
 // Prepare the arguments to pass to eslint
 const extOut = `--ext ${args.ext.join(',')}`;
