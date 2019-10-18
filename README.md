@@ -1,7 +1,7 @@
-linting-config
-==============
+shared-ts-configs
+=================
 
-This monorepo has linting configurations for bigpopakap's Typescript/JS/React/Express projects.
+This monorepo has configurations for bigpopakap's Typescript/JS/React/Express projects.
 In the future, this may hold other common configurations, like semantic commit formats, Renovate configs, etc.
 
 This repo is setup up with:

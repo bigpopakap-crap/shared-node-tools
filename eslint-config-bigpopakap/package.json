@@ -2,10 +2,10 @@
   "name": "eslint-config-bigpopakap",
   "version": "1.0.2",
   "description": "Shared ESLint configurations for bigpopakap's personal projects",
-  "homepage": "https://github.com/bigpopakap/linting-config",
+  "homepage": "https://github.com/bigpopakap/shared-ts-configs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigpopakap/linting-config"
+    "url": "https://github.com/bigpopakap/shared-ts-configs"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "2.4.0",
