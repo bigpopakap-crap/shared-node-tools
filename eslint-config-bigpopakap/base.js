@@ -3,7 +3,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:import/errors',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
@@ -14,17 +14,17 @@ module.exports = {
     '@typescript-eslint',
     'import',
     'json',
-    'prettier' // prettier must be last
+    'prettier', // prettier must be last
   ],
   settings: {
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx']
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts', '.module.scss']
-      }
-    }
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts', '.module.scss'],
+      },
+    },
   },
   rules: {
     // replace the base rule with the typescript one so that it knows when type imports are used
@@ -38,17 +38,20 @@ module.exports = {
       'error',
       {
         // disallow "import * from"
-        patterns: ['\\*']
-      }
+        patterns: ['\\*'],
+      },
     ],
     'import/no-duplicates': 'error',
 
     // explicit function return types
-    '@typescript-eslint/explicit-function-return-type': ['error', {
-      // allow something like `node.addEventListener('click', () => {});`
-      // see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md#allowexpressions
-      allowExpressions: true
-    }],
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      {
+        // allow something like `node.addEventListener('click', () => {});`
+        // see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md#allowexpressions
+        allowExpressions: true,
+      },
+    ],
 
     // code style
     'prettier/prettier': [
@@ -58,8 +61,8 @@ module.exports = {
         singleQuote: true,
         trailingComma: 'es5',
         tabWidth: 2,
-        semi: true
-      }
-    ]
-  }
+        semi: true,
+      },
+    ],
+  },
 };
