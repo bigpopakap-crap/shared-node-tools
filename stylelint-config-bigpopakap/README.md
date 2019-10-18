@@ -9,15 +9,19 @@ Shared Stylelint configurations for bigpopakap's personal projects.
 
 ```bash
 yarn add -D stylelint-config-bigpopakap
+```
 
-# It's ok to use npx. It will detect and ask if it should use yarn
-# Optionally use the following arg: --extra-args "--ignore-engines"
-npx install-peerdeps --yarn --dev --only-peers stylelint-config-bigpopakap
+## Running
+
+Examples of how to run the linter:
+```bash
+yarn stylelint-bigpopakap
+yarn stylelint-bigpopakap --fix
 ```
 
 ## Configuration
 
-Add the following `.stylelintrc.js` to your project.
+Add the following `.stylelintrc.js` to your project:
 ```js
 module.exports = {
   "extends": [
@@ -29,13 +33,13 @@ module.exports = {
 
 ## Useful scripts
 
-You may want to add the following scripts to your `package.json`
+You may want to add the following scripts to your `package.json`:
 ```json
 {
   "scripts": {
     "lint": "npm-run-all -c lint:*",
     "lintfix": "npm-run-all -c lint:*:fix",
-    "lint:css": "yarn stylelint src/**/*.{js,jsx,ts,tsx}",
+    "lint:css": "yarn stylelint-bigpopakap",
     "lint:css:fix": "yarn lint:css --fix"
   }
 }
