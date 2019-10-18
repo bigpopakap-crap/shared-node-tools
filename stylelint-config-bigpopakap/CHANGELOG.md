@@ -1,3 +1,10 @@
+# [stylelint-config-bigpopakap-v1.1.0](https://github.com/bigpopakap/shared-ts-configs/compare/v1.0.1-stylelint-config-bigpopakap...v1.1.0-stylelint-config-bigpopakap) (2019-10-18)
+
+
+### Features
+
+* add binary script for stylelint-config-bigpopakap ([e0fccae](https://github.com/bigpopakap/shared-ts-configs/commit/e0fccae77194d2062673118d8b70c2f8bbe70a6d)), closes [#27](https://github.com/bigpopakap/shared-ts-configs/issues/27)
+
 # [stylelint-config-bigpopakap-v1.0.1](https://github.com/bigpopakap/shared-ts-configs/compare/v1.0.0-stylelint-config-bigpopakap...v1.0.1-stylelint-config-bigpopakap) (2019-10-16)
 
 
