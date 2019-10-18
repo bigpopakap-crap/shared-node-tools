@@ -2,10 +2,10 @@
   "name": "stylelint-config-bigpopakap",
   "version": "1.0.1",
   "description": "Shared Stylelint configurations for bigpopakap's personal projects",
-  "homepage": "https://github.com/bigpopakap/linting-config",
+  "homepage": "https://github.com/bigpopakap/shared-ts-configs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigpopakap/linting-config"
+    "url": "https://github.com/bigpopakap/shared-ts-configs"
   },
   "peerDependencies": {
     "stylelint": "11.1.1",

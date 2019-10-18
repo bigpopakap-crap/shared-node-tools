@@ -1,5 +1,5 @@
 {
-  "name": "@bigpopakap/linting",
+  "name": "@bigpopakap/shared-ts-configs",
   "version": "0.1.0",
   "private": true,
   "workspaces": [

@@ -2,10 +2,10 @@
   "name": "renovate-config-bigpopakap",
   "version": "1.0.0",
   "description": "Shared RenovateBot configurations for bigpopakap's personal projects",
-  "homepage": "https://github.com/bigpopakap/linting-config",
+  "homepage": "https://github.com/bigpopakap/shared-ts-configs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigpopakap/linting-config"
+    "url": "https://github.com/bigpopakap/shared-ts-configs"
   },
   "renovate-config": {
     "default": {
