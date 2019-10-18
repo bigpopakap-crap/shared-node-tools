@@ -1,3 +1,15 @@
+# [eslint-config-bigpopakap-v1.1.0](https://github.com/bigpopakap/shared-ts-configs/compare/v1.0.2-eslint-config-bigpopakap...v1.1.0-eslint-config-bigpopakap) (2019-10-18)
+
+
+### Bug Fixes
+
+* harcode the --ext option ([3d8b4bb](https://github.com/bigpopakap/shared-ts-configs/commit/3d8b4bb1594363f17fed03b1af515e966eb82d79))
+
+
+### Features
+
+* add executable script ([d0abd52](https://github.com/bigpopakap/shared-ts-configs/commit/d0abd526d6181f658f48b6f757128cbab8532333)), closes [#27](https://github.com/bigpopakap/shared-ts-configs/issues/27)
+
 # [eslint-config-bigpopakap-v1.0.2](https://github.com/bigpopakap/shared-ts-configs/compare/v1.0.1-eslint-config-bigpopakap...v1.0.2-eslint-config-bigpopakap) (2019-10-16)
 
 
