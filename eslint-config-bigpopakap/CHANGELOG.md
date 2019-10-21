@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v1.1.1](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.0-eslint-config-bigpopakap...v1.1.1-eslint-config-bigpopakap) (2019-10-21)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v2.5.0 ([a3a6961](https://github.com/bigpopakap/shared-ts-configs/commit/a3a69611a9ff93eba2de34d3ff397711a8560592))
+
 # [eslint-config-bigpopakap-v1.1.0](https://github.com/bigpopakap/shared-ts-configs/compare/v1.0.2-eslint-config-bigpopakap...v1.1.0-eslint-config-bigpopakap) (2019-10-18)
 
 
