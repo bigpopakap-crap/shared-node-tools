@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v1.1.2](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.1-eslint-config-bigpopakap...v1.1.2-eslint-config-bigpopakap) (2019-10-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-json to v2 ([1277834](https://github.com/bigpopakap/shared-ts-configs/commit/12778348775cd7e30738733ee901d79aaeca1f37))
+
 # [eslint-config-bigpopakap-v1.1.1](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.0-eslint-config-bigpopakap...v1.1.1-eslint-config-bigpopakap) (2019-10-21)
 
 
