@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v1.1.4](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.3-eslint-config-bigpopakap...v1.1.4-eslint-config-bigpopakap) (2019-10-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v6.5.0 ([2909de4](https://github.com/bigpopakap/shared-ts-configs/commit/2909de488ac72310a3b7a882f0519c0dbbebea11))
+
 # [eslint-config-bigpopakap-v1.1.3](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.2-eslint-config-bigpopakap...v1.1.3-eslint-config-bigpopakap) (2019-10-25)
 
 
