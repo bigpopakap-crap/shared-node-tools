@@ -1,3 +1,10 @@
+# [renovate-config-bigpopakap-v1.1.0](https://github.com/bigpopakap/shared-ts-configs/compare/v1.0.0-renovate-config-bigpopakap...v1.1.0-renovate-config-bigpopakap) (2019-10-28)
+
+
+### Features
+
+* truncate commit message ([925b5bf](https://github.com/bigpopakap/shared-ts-configs/commit/925b5bf5026f6bda4bb7a936fd6468cdc7f825bf)), closes [#39](https://github.com/bigpopakap/shared-ts-configs/issues/39)
+
 # renovate-config-bigpopakap-v1.0.0 (2019-10-16)
 
 
