@@ -17,6 +17,8 @@
       ],
       "automerge": true,
       "semanticCommits": true,
+      "commitBodyTable": true,
+      "commitMessageTopic": "{{depName}}"
       "packageRules": [
         {
           "packagePatterns": [
