@@ -18,7 +18,7 @@ if (!shell.which('yarn')) {
 const args = yargs.boolean('fix').default('fix', false).argv;
 
 // Prepare the arguments to pass to eslint
-const fileOut = 'src/**/*.{js,jsx,ts,tsx}';
-const fixOut = args.fix ? '--fix' : '';
+const globArg = 'src/**/*.{js,jsx,ts,tsx}';
+const fixArg = args.fix ? '--fix' : '';
 
-shell.exec(`yarn stylelint ${fileOut} ${fixOut}`);
+shell.exec(`yarn stylelint ${globArg} ${fixArg}`);
