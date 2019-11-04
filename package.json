@@ -2,12 +2,6 @@
   "name": "@bigpopakap/shared-ts-configs",
   "version": "0.1.0",
   "private": true,
-  "description": "Shared configurations for bigpopakap's personal Typescript projects",
-  "homepage": "https://github.com/bigpopakap/shared-ts-configs",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bigpopakap/shared-ts-configs"
-  },
   "workspaces": [
     "eslint-config-bigpopakap",
     "renovate-config-bigpopakap",
