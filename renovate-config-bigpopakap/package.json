@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-bigpopakap",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shared RenovateBot configurations for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-ts-configs",
   "repository": {
