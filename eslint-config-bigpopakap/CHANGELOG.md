@@ -1,3 +1,11 @@
+# [eslint-config-bigpopakap-v1.1.7](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.6-eslint-config-bigpopakap...v1.1.7-eslint-config-bigpopakap) (2019-11-04)
+
+
+### Bug Fixes
+
+* **ci:** fix autopublishing ([25b5002](https://github.com/bigpopakap/shared-ts-configs/commit/25b50021f284aaae64579632a02fe26815d6b49a)), closes [#56](https://github.com/bigpopakap/shared-ts-configs/issues/56)
+* **package.json:** update repo link to point to subdirectories ([5ee5a6a](https://github.com/bigpopakap/shared-ts-configs/commit/5ee5a6acad3345ab6d3f108a45e3f3ba2d844f49))
+
 # [eslint-config-bigpopakap-v1.1.6](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.5-eslint-config-bigpopakap...v1.1.6-eslint-config-bigpopakap) (2019-11-04)
 
 
