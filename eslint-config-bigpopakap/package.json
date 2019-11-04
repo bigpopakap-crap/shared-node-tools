@@ -2,10 +2,10 @@
   "name": "eslint-config-bigpopakap",
   "version": "1.1.6",
   "description": "Shared ESLint configurations for bigpopakap's personal projects",
-  "homepage": "https://github.com/bigpopakap/shared-ts-configs",
+  "homepage": "https://github.com/bigpopakap/shared-ts-configs/tree/master/eslint-config-bigpopakap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigpopakap/shared-ts-configs"
+    "url": "https://github.com/bigpopakap/shared-ts-configs/tree/master/eslint-config-bigpopakap"
   },
   "bin": {
     "eslint-bigpopakap": "./bin/eslint-bigpopakap.js"
