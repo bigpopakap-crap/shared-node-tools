@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v1.1.8](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.7-eslint-config-bigpopakap...v1.1.8-eslint-config-bigpopakap) (2019-11-05)
+
+
+### Bug Fixes
+
+* **deps:** update typescript to v3.7.2 ([5449189](https://github.com/bigpopakap/shared-ts-configs/commit/5449189be1a7ac25bc404c6e955d8e9c5ba717ed))
+
 # [eslint-config-bigpopakap-v1.1.7](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.6-eslint-config-bigpopakap...v1.1.7-eslint-config-bigpopakap) (2019-11-04)
 
 
