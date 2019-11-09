@@ -1,3 +1,11 @@
+# [stylelint-config-bigpopakap-v1.2.0](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.1-stylelint-config-bigpopakap...v1.2.0-stylelint-config-bigpopakap) (2019-11-09)
+
+
+### Features
+
+* **bin-script:** don't specify file extensions to stylelint ([077db7d](https://github.com/bigpopakap/shared-ts-configs/commit/077db7dd59dcddea9ec3068aad26bacb98f47179)), closes [#60](https://github.com/bigpopakap/shared-ts-configs/issues/60)
+* **bin-scripts:** run in current dir, add more file exts ([4ea7a77](https://github.com/bigpopakap/shared-ts-configs/commit/4ea7a775d42305def5db43e91adaf7b73f640759)), closes [#60](https://github.com/bigpopakap/shared-ts-configs/issues/60)
+
 # [stylelint-config-bigpopakap-v1.1.1](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.0-stylelint-config-bigpopakap...v1.1.1-stylelint-config-bigpopakap) (2019-11-04)
 
 
