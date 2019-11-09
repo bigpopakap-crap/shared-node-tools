@@ -1,3 +1,11 @@
+# [eslint-config-bigpopakap-v1.2.0](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.8-eslint-config-bigpopakap...v1.2.0-eslint-config-bigpopakap) (2019-11-09)
+
+
+### Features
+
+* **bin-script:** don't specify file extensions to eslint ([248ae39](https://github.com/bigpopakap/shared-ts-configs/commit/248ae39d718f05e2e3787c7a5fe3cc0bb34f5a68)), closes [#60](https://github.com/bigpopakap/shared-ts-configs/issues/60)
+* **bin-scripts:** run in current dir, add more file exts ([4ea7a77](https://github.com/bigpopakap/shared-ts-configs/commit/4ea7a775d42305def5db43e91adaf7b73f640759)), closes [#60](https://github.com/bigpopakap/shared-ts-configs/issues/60)
+
 # [eslint-config-bigpopakap-v1.1.8](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.7-eslint-config-bigpopakap...v1.1.8-eslint-config-bigpopakap) (2019-11-05)
 
 
