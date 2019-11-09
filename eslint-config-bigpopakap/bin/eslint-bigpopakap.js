@@ -20,6 +20,6 @@ const args = yargs.boolean('fix').default('fix', false).argv;
 // Prepare the arguments to pass to eslint
 const extArg = `--ext json,js,jsx,ts,d.ts,tsx`;
 const fixArg = args.fix ? '--fix' : '';
-const pathArg = './';
+const pathArg = '.';
 
 shell.exec(`yarn eslint ${extArg} ${fixArg} ${pathArg}`);
