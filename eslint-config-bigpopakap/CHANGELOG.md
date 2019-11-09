@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v1.2.3](https://github.com/bigpopakap/shared-ts-configs/compare/v1.2.2-eslint-config-bigpopakap...v1.2.3-eslint-config-bigpopakap) (2019-11-09)
+
+
+### Bug Fixes
+
+* **deps:** add eslint-plugin-react ([15f5abb](https://github.com/bigpopakap/shared-ts-configs/commit/15f5abb262c8edb0d0ba3778b2226be7b4c65928))
+
 # [eslint-config-bigpopakap-v1.2.2](https://github.com/bigpopakap/shared-ts-configs/compare/v1.2.1-eslint-config-bigpopakap...v1.2.2-eslint-config-bigpopakap) (2019-11-09)
 
 
