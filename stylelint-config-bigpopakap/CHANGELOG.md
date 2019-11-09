@@ -1,3 +1,10 @@
+# [stylelint-config-bigpopakap-v1.2.1](https://github.com/bigpopakap/shared-ts-configs/compare/v1.2.0-stylelint-config-bigpopakap...v1.2.1-stylelint-config-bigpopakap) (2019-11-09)
+
+
+### Bug Fixes
+
+* **bin-scripts:** revert previous commits ([65261c3](https://github.com/bigpopakap/shared-ts-configs/commit/65261c350e4886a39ba35092ea561ff233e383e5)), closes [#60](https://github.com/bigpopakap/shared-ts-configs/issues/60)
+
 # [stylelint-config-bigpopakap-v1.2.0](https://github.com/bigpopakap/shared-ts-configs/compare/v1.1.1-stylelint-config-bigpopakap...v1.2.0-stylelint-config-bigpopakap) (2019-11-09)
 
 
