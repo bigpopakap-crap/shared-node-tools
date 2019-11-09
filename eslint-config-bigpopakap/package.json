@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bigpopakap",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Shared ESLint configurations for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-ts-configs",
   "repository": {
