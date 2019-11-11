@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
     'plugin:import/errors',
@@ -13,6 +14,7 @@ module.exports = {
     'typescript',
     '@typescript-eslint',
     'import',
+    'absolute-import',
     'json',
     'prettier', // prettier must be last
   ],
@@ -43,6 +45,10 @@ module.exports = {
     ],
     'import/no-duplicates': 'error',
 
+    // absolute imports
+    'absolute-import/no-relative-path': 'error',
+    'absolute-import/no-unresolved': 'error',
+
     // explicit function return types
     '@typescript-eslint/explicit-function-return-type': [
       'error',
@@ -52,6 +58,11 @@ module.exports = {
         allowExpressions: true,
       },
     ],
+
+    // async/await
+    'no-await-in-loop': 'error',
+    'no-return-await': 'error',
+    'require-await': 'error',
 
     // code style
     'prettier/prettier': [
