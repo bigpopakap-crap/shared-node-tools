@@ -1,3 +1,24 @@
+# [eslint-config-bigpopakap-v2.0.0](https://github.com/bigpopakap/shared-ts-configs/compare/v1.2.4-eslint-config-bigpopakap...v2.0.0-eslint-config-bigpopakap) (2019-11-11)
+
+
+### Features
+
+* add async/await rules as errors ([836b14f](https://github.com/bigpopakap/shared-ts-configs/commit/836b14fcd2d4a1021382255002d0c48e46f413f4)), closes [#72](https://github.com/bigpopakap/shared-ts-configs/issues/72)
+* add eslint-plugin-absolute-import ([a89009e](https://github.com/bigpopakap/shared-ts-configs/commit/a89009e4dec182c91079ffb8068f4a0f5cb139c7))
+* add node specification for bigpopakap/node ([93eb786](https://github.com/bigpopakap/shared-ts-configs/commit/93eb78673de214a76ee8330a9378ed7bc11362bf))
+* extend eslint:recommended rules ([2ab0c86](https://github.com/bigpopakap/shared-ts-configs/commit/2ab0c86c2a1fe05b29f328f1c2a1323451d800cd))
+
+
+### BREAKING CHANGES
+
+* You may have errors for the following rules: no-await-in-loop, no-return-await and
+require-await
+* We now extend eslint:recommended. You may have errors and warnings to fix. See
+https://eslint.org/docs/rules/
+* Added the following rules as errors (you may need to fix them):
+absolute-import/no-relative-path and  absolute-import/no-unresolved. See
+https://github.com/mcclowes/eslint-plugin-absolute-import
+
 # [eslint-config-bigpopakap-v1.2.4](https://github.com/bigpopakap/shared-ts-configs/compare/v1.2.3-eslint-config-bigpopakap...v1.2.4-eslint-config-bigpopakap) (2019-11-09)
 
 
