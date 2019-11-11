@@ -13,6 +13,7 @@ module.exports = {
     'typescript',
     '@typescript-eslint',
     'import',
+    'absolute-import',
     'json',
     'prettier', // prettier must be last
   ],
@@ -42,6 +43,10 @@ module.exports = {
       },
     ],
     'import/no-duplicates': 'error',
+
+    // absolute imports
+    'absolute-import/no-relative-path': 'error',
+    'absolute-import/no-unresolved': 'error',
 
     // explicit function return types
     '@typescript-eslint/explicit-function-return-type': [

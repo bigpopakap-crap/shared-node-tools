@@ -16,6 +16,7 @@
     "eslint": "6.6.0",
     "eslint-config-prettier": "6.5.0",
     "eslint-config-react-app": "5.0.2",
+    "eslint-plugin-absolute-import": "1.4.4",
     "eslint-plugin-css-modules": "2.11.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-json": "2.0.1",
