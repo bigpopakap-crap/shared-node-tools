@@ -59,6 +59,11 @@ module.exports = {
       },
     ],
 
+    // async/await
+    'no-await-in-loop': 'error',
+    'no-return-await': 'error',
+    'require-await': 'error',
+
     // code style
     'prettier/prettier': [
       'error',
