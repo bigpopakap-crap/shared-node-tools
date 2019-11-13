@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v2.0.2](https://github.com/bigpopakap/shared-ts-configs/compare/v2.0.1-eslint-config-bigpopakap...v2.0.2-eslint-config-bigpopakap) (2019-11-13)
+
+
+### Bug Fixes
+
+* **react-app:** fix missing dependencies in bigpopakap/react config ([8c2d586](https://github.com/bigpopakap/shared-ts-configs/commit/8c2d5862a668870a12412e0c5b940fce750d788c))
+
 # [eslint-config-bigpopakap-v2.0.1](https://github.com/bigpopakap/shared-ts-configs/compare/v2.0.0-eslint-config-bigpopakap...v2.0.1-eslint-config-bigpopakap) (2019-11-11)
 
 
