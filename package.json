@@ -36,7 +36,7 @@
     "@semantic-release/release-notes-generator": "7.3.2",
     "cz-conventional-changelog": "3.0.2",
     "husky": "3.0.9",
-    "lint-staged": "9.4.2",
+    "lint-staged": "9.4.3",
     "semantic-release": "15.13.30",
     "semantic-release-monorepo": "6.1.1",
     "semantic-release-monorepo-hooks": "2.9.5",
