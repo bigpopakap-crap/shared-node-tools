@@ -1,10 +1,13 @@
 name: Node CI
 
-on: [push]
+on:
+  push: {}
+  pull_request: {}
+  schedule:
+    - cron:  '0 */1 * * *' # Every hour, generated with https://crontab.guru/
 
 jobs:
   node_ci:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -12,10 +15,9 @@ jobs:
 
     env:
       CI: true
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     steps:
+    # Setup steps
     - name: Git checkout
       uses: actions/checkout@v1
     - name: Read .nvmrc
@@ -25,11 +27,22 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ steps.nvm.outputs.NVMRC }}
-    - name: Install and lint
-      run: |
-        yarn
-        yarn lint
+
+    # Testing steps
+    - name: Install
+      run: yarn install
+    - name: Lint commit messages
+      uses: wagoid/commitlint-github-action@v1.2.2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Lint code
+      run: yarn lint
+
+    # Publishing steps
     - name: Publish
       if: success() # Very important to make sure we don't publish if tests/linting/build fails!
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: yarn release-all # semantic-release will safely skip publishing if we're not on the master branch
                             # running this in all branches still runs some validation steps, so that's useful
