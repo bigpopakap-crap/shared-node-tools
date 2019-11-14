@@ -1,0 +1,32 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  node_ci:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+
+    steps:
+    - name: Git checkout
+      uses: actions/checkout@v1
+    - name: Read .nvmrc
+      run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+      id: nvm
+    - name: Use Node.js ${{ steps.nvm.outputs.NVMRC }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ steps.nvm.outputs.NVMRC }}
+    - name: Install and lint
+      run: |
+        yarn
+        yarn lint
+    - name: Publish
+      if: success() # Very important to make sure we don't publish if tests/linting/build fails!
+      run: yarn release-all # semantic-release will safely skip publishing if we're not on the master branch
+                            # running this in all branches still runs some validation steps, so that's useful
+      env:
+        CI: true
