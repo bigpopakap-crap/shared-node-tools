@@ -2,10 +2,10 @@
   "name": "stylelint-config-bigpopakap",
   "version": "1.2.1",
   "description": "Shared Stylelint configurations for bigpopakap's personal projects",
-  "homepage": "https://github.com/bigpopakap/shared-ts-configs",
+  "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigpopakap/shared-ts-configs"
+    "url": "https://github.com/bigpopakap/shared-node-tools"
   },
   "bin": {
     "stylelint-bigpopakap": "./bin/stylelint-bigpopakap.js"

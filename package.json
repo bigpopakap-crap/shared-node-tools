@@ -1,5 +1,5 @@
 {
-  "name": "@bigpopakap/shared-ts-configs",
+  "name": "@bigpopakap/shared-node-tools",
   "version": "0.1.0",
   "private": true,
   "workspaces": [
