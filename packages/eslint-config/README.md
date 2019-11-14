@@ -1,5 +1,5 @@
-eslint-config-bigpopakap
-========================
+@bigpopakap/eslint-config
+=========================
 
 Shared ESLint configurations for bigpopakap's personal projects.
 
@@ -8,7 +8,7 @@ Shared ESLint configurations for bigpopakap's personal projects.
 ## Installation
 
 ```bash
-yarn add -D eslint-config-bigpopakap
+yarn add -D @bigpopakap/eslint-config
 ```
 
 ## Running
@@ -26,7 +26,7 @@ Add the following `.eslintrc.js` to your project:
 module.exports = {
   extends: [
     // Update to `/node`, `/react`, or another flavor, depending on what kind of project you have.
-    'bigpopakap/base'
+    '@bigpopakap/eslint-config/base'
   ],
 
   // Optional, but useful to help ESLint resolve absolute path imports,
