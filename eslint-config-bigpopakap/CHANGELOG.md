@@ -1,3 +1,10 @@
+# [eslint-config-bigpopakap-v2.0.3](https://github.com/bigpopakap/shared-node-tools/compare/v2.0.2-eslint-config-bigpopakap...v2.0.3-eslint-config-bigpopakap) (2019-11-14)
+
+
+### Bug Fixes
+
+* rename repo references ([3b5167b](https://github.com/bigpopakap/shared-node-tools/commit/3b5167be93b0908387009e3423191267d95c6860)), closes [#59](https://github.com/bigpopakap/shared-node-tools/issues/59)
+
 # [eslint-config-bigpopakap-v2.0.2](https://github.com/bigpopakap/shared-node-tools/compare/v2.0.1-eslint-config-bigpopakap...v2.0.2-eslint-config-bigpopakap) (2019-11-13)
 
 
