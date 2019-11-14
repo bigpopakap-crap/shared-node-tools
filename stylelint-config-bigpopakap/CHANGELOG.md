@@ -1,3 +1,10 @@
+# [stylelint-config-bigpopakap-v1.2.2](https://github.com/bigpopakap/shared-node-tools/compare/v1.2.1-stylelint-config-bigpopakap...v1.2.2-stylelint-config-bigpopakap) (2019-11-14)
+
+
+### Bug Fixes
+
+* rename repo references ([3b5167b](https://github.com/bigpopakap/shared-node-tools/commit/3b5167be93b0908387009e3423191267d95c6860)), closes [#59](https://github.com/bigpopakap/shared-node-tools/issues/59)
+
 # [stylelint-config-bigpopakap-v1.2.1](https://github.com/bigpopakap/shared-node-tools/compare/v1.2.0-stylelint-config-bigpopakap...v1.2.1-stylelint-config-bigpopakap) (2019-11-09)
 
 
