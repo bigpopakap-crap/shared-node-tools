@@ -8,7 +8,12 @@
     "url": "https://github.com/bigpopakap/shared-node-tools"
   },
   "bin": {
-    "eslint-bigpopakap": "./bin/eslint-bigpopakap.js"
+    "eslint-bigpopakap": "bin/eslint-bigpopakap.js"
+  },
+  "scripts": {
+    "lint": "yarn eslint-bigpopakap",
+    "lintfix": "yarn lint --fix",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.7.0",
@@ -31,5 +36,8 @@
     "shelljs": "0.8.3",
     "typescript": "3.7.2",
     "yargs": "14.2.0"
+  },
+  "devDependencies": {
+    "lint-staged": "9.4.3"
   }
 }
