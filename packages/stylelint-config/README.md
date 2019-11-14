@@ -1,4 +1,4 @@
-stylelint-config-bigpopakap
+@bigpopakap/stylelint-config
 ===========================
 
 Shared Stylelint configurations for bigpopakap's personal projects.
@@ -8,7 +8,7 @@ Shared Stylelint configurations for bigpopakap's personal projects.
 ## Installation
 
 ```bash
-yarn add -D stylelint-config-bigpopakap
+yarn add -D @bigpopakap/stylelint-config
 ```
 
 ## Running
@@ -26,7 +26,7 @@ Add the following `.stylelintrc.js` to your project:
 module.exports = {
   "extends": [
     // Update `/react-styled-components` or another flavor, depending on what kind of project you have.
-    "stylelint-config-bigpopakap/base"
+    "@bigpopakap/stylelint-config/base"
   ]
 };
 ```
