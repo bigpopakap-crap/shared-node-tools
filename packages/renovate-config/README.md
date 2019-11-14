@@ -1,4 +1,4 @@
-renovate-config-bigpopakap
+@bigpopakap/renovate-config
 ===========================
 
 Shared [RenovateBot][renovate-config-options] configurations for bigpopakap's personal projects.
@@ -12,13 +12,13 @@ Follow the [RenovateBot installation instructions][renovate-installation] to set
 ## Configuration
 
 ```bash
-yarn add -D renovate-config-bigpopakap
+yarn add -D @bigpopakap/renovate-config
 ```
 
 Add the following `.renovaterc.json` to your project.
 ```json
 {
-  "extends": ["bigpopakap"]
+  "extends": ["@bigpopakap"]
 }
 ```
 And and add any other configurations you need specific to that repo.
