@@ -25,8 +25,8 @@ Add the following `.stylelintrc.js` to your project:
 ```js
 module.exports = {
   "extends": [
-    // Update `/react-styled-components` or another flavor, depending on what kind of project you have.
-    "@bigpopakap/stylelint-config/base"
+    // Update `/***` to `/react-styled-components` or another flavor, depending on what kind of project you have.
+    "@bigpopakap/stylelint-config/***"
   ]
 };
 ```

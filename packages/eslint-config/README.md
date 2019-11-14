@@ -25,8 +25,8 @@ Add the following `.eslintrc.js` to your project:
 ```js
 module.exports = {
   extends: [
-    // Update to `/node`, `/react`, or another flavor, depending on what kind of project you have.
-    '@bigpopakap/eslint-config/base'
+    // Update `/***` to `/node`, `/react`, or another flavor, depending on what kind of project you have.
+    '@bigpopakap/eslint-config/***'
   ],
 
   // Optional, but useful to help ESLint resolve absolute path imports,
