@@ -1,4 +1,4 @@
-shared-ts-configs
+shared-node-tools
 =================
 
 This monorepo has configurations for bigpopakap's Typescript/JS/React/Express projects.
