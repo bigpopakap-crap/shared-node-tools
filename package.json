@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "workspaces": [
-    "eslint-config-bigpopakap",
-    "renovate-config-bigpopakap",
-    "stylelint-config-bigpopakap"
+    "packages/*"
   ],
   "config": {
     "commitizen": {
@@ -13,13 +11,13 @@
     }
   },
   "scripts": {
-    "publish-all": "yarn workspaces run semantic-release",
-    "lint": "yarn eslint-bigpopakap",
-    "lintfix": "yarn lint --fix"
+    "lint": "yarn lerna run lint",
+    "lintfix": "yarn lerna run lintfix",
+    "release-all": "yarn workspaces run semantic-release"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "lerna run --concurrency 1 --stream precommit",
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
@@ -36,7 +34,7 @@
     "@semantic-release/release-notes-generator": "7.3.2",
     "cz-conventional-changelog": "3.0.2",
     "husky": "3.0.9",
-    "lint-staged": "9.4.3",
+    "lerna": "^3.18.4",
     "semantic-release": "15.13.30",
     "semantic-release-monorepo": "6.1.1",
     "semantic-release-monorepo-hooks": "2.9.5",

@@ -7,6 +7,11 @@
     "type": "git",
     "url": "https://github.com/bigpopakap/shared-node-tools"
   },
+  "scripts": {
+    "lint": "yarn eslint-bigpopakap",
+    "lintfix": "yarn lint --fix",
+    "precommit": "lint-staged"
+  },
   "renovate-config": {
     "default": {
       "extends": [
@@ -44,5 +49,8 @@
         "enabled": true
       }
     }
+  },
+  "devDependencies": {
+    "lint-staged": "9.4.3"
   }
 }

@@ -8,8 +8,8 @@ jobs:
     - name: "lint code"
       script: yarn lint
     - stage: "Publish"
-      name: "semantic-release to publish all packages"
-      script: yarn publish-all
+      name: "semantic-release all packages"
+      script: yarn release-all
 
 notifications:
   email: false
