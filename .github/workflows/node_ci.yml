@@ -10,6 +10,11 @@ jobs:
     strategy:
       fail-fast: false
 
+    env:
+      CI: true
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
     steps:
     - name: Git checkout
       uses: actions/checkout@v1
@@ -28,5 +33,3 @@ jobs:
       if: success() # Very important to make sure we don't publish if tests/linting/build fails!
       run: yarn release-all # semantic-release will safely skip publishing if we're not on the master branch
                             # running this in all branches still runs some validation steps, so that's useful
-      env:
-        CI: true
