@@ -1,3 +1,19 @@
+# [@bigpopakap/renovate-config-v2.0.0](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.0-@bigpopakap/renovate-config...v2.0.0-@bigpopakap/renovate-config) (2019-11-15)
+
+
+### Features
+
+* enable eslint-plugin-eslint-comments rules ([953a1b8](https://github.com/bigpopakap/shared-node-tools/commit/953a1b8d5a280b4979a248abf62528f50f579fcb)), closes [#92](https://github.com/bigpopakap/shared-node-tools/issues/92)
+* enable eslint-plugin-node ([526b27d](https://github.com/bigpopakap/shared-node-tools/commit/526b27d92176414a9024b2d715b75c108f1b366f)), closes [#92](https://github.com/bigpopakap/shared-node-tools/issues/92)
+
+
+### BREAKING CHANGES
+
+* There are many rules enabled from here, which you may need to fix:
+https://www.npmjs.com/package/eslint-plugin-node
+* You may have to fix some of the rules related to improper use of eslint-disable
+comments, described here: https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/
+
 # @bigpopakap/renovate-config-v1.0.0 (2019-11-15)
 
 
