@@ -26,6 +26,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
+      - name: Install
+        run: yarn install
 
       # Assume that CI has run and passed already 🤞🏾
 
