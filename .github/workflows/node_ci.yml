@@ -43,6 +43,6 @@ jobs:
       if: success() # Very important to make sure we don't publish if tests/linting/build fails!
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the github_token as the npm_token to publish to Github Packages
       run: yarn release-all # semantic-release will safely skip publishing if we're not on the master branch
                             # running this in all branches still runs some validation steps, so that's useful
