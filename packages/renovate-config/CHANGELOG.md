@@ -1,3 +1,16 @@
+# @bigpopakap/renovate-config-v1.0.0 (2019-11-15)
+
+
+### Features
+
+* publish to Github Packages ([1721d84](https://github.com/bigpopakap/shared-node-tools/commit/1721d84d0311daf02f8a1ccb508777e257a166ac)), closes [#86](https://github.com/bigpopakap/shared-node-tools/issues/86)
+
+
+### BREAKING CHANGES
+
+* This package is now being published to Github Packages. You should update your
+.eslintrc file with the updated name of the package to extend from (described int he updated README)
+
 # [renovate-config-bigpopakap-v1.1.2](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.1-renovate-config-bigpopakap...v1.1.2-renovate-config-bigpopakap) (2019-11-14)
 
 
