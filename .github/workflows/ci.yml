@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    # Only build pushes to the master branch. Other branches will be taken care of as pull_requests
+    # Note that this means we don't run this when tags are pushed.
+    branches:
+      - master
+
+  # We must build on pull request so that commitlint can know what range of commits to analyze
+  # and pushes to a branch can only analyze the most recent commit.
+  pull_request: {}
+
+  # Run on a schedule to make sure nothing funny happens even if master is sitting there untouched
+  schedule:
+    - cron:  '0 */1 * * *' # Every hour, generated with https://crontab.guru/
+
+jobs:
+  tests:
+    name: Automated Tests
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    env:
+      CI: true
+
+    steps:
+      # Setup steps
+      - name: Git checkout
+        uses: actions/checkout@v1
+      - name: Read .nvmrc
+        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+        id: nvm
+      - name: Use Node.js ${{ steps.nvm.outputs.NVMRC }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ steps.nvm.outputs.NVMRC }}
+      - name: Install
+        run: yarn install
+
+      # Tests
+      - name: Lint commit messages
+        uses: wagoid/commitlint-github-action@v1.2.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to pull the list of commits in a PR
+      - name: Lint code
+        run: yarn lint
+
+  semantic_release:
+    name: Semantic Release
+    runs-on: ubuntu-latest
+    needs: tests # Very important! We don't want to release if tests/linting fails!
+    strategy:
+      fail-fast: true
+    env:
+      CI: true
+
+    steps:
+      # Setup steps
+      - name: Git checkout
+        uses: actions/checkout@v1
+      - name: Read .nvmrc
+        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+        id: nvm
+      - name: Use Node.js ${{ steps.nvm.outputs.NVMRC }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ steps.nvm.outputs.NVMRC }}
+      - name: Install
+        run: yarn install
+
+      # Releasing steps
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the github_token as the npm_token to publish to Github Packages
+
+        # semantic-release will safely skip publishing if we're not on the master branch
+        # running this in all branches still runs some validation steps, so that's useful
+        run: yarn release-all
