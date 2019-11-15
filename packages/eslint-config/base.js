@@ -30,12 +30,12 @@ module.exports = {
     },
   },
   rules: {
-    // replace the base rule with the typescript one so that it knows when type imports are used
+    // Replace the base rule with the typescript one so that it knows when type imports are used
     'no-unused-vars': 'off',
     'typescript/no-unused-vars': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
 
-    // import rules
+    /* Import rules ******************************************************************/
     'import/order': ['error', { 'newlines-between': 'always' }],
     'no-restricted-imports': [
       'error',
@@ -46,29 +46,29 @@ module.exports = {
     ],
     'import/no-duplicates': 'error',
 
-    // absolute imports
+    /* Absolute import rules ********************************************************/
     'absolute-import/no-relative-path': 'error',
     'absolute-import/no-unresolved': 'error',
 
-    // explicit function return types
+    /* Explicit return types ********************************************************/
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
-        // allow something like `node.addEventListener('click', () => {});`
-        // see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md#allowexpressions
+        // Allow something like `node.addEventListener('click', () => {});`
+        // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md#allowexpressions
         allowExpressions: true,
       },
     ],
 
-    // async/await
+    /* Async/await *****************************************************************/
     'no-await-in-loop': 'error',
     'no-return-await': 'error',
     'require-await': 'error',
 
-    // comments including "eslint-disable"
+    /* Comments disabling Eslint **************************************************/
     'eslint-comments/no-unused-disable': 'error',
 
-    // code style
+    /* Code style *****************************************************************/
     'prettier/prettier': [
       'error',
       {
