@@ -6,6 +6,7 @@ module.exports = {
     'plugin:import/errors',
     'plugin:prettier/recommended',
     'plugin:eslint-comments/recommended',
+    'plugin:node/recommended',
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
@@ -69,6 +70,24 @@ module.exports = {
 
     /* Comments disabling Eslint **************************************************/
     'eslint-comments/no-unused-disable': 'error',
+
+    /* Node things ****************************************************************/
+    // Use module.exports instead of exports directly
+    'node/exports-style': ['error', 'module.exports'],
+    // Never allow using file extensions in import statements
+    'node/file-extension-in-import': ['error', 'never'],
+    // Always use a global var for "console" without importing it
+    'node/prefer-global/console': ['error', 'always'],
+    // Always use a global var for "process" without importing it
+    'node/prefer-global/process': ['error', 'always'],
+    // Always require importing UrlSearchParams from 'url'
+    'node/prefer-global/url-search-params': ['error', 'never'],
+    // Always require importing URL from 'url'
+    'node/prefer-global/url': ['error', 'never'],
+    // Use async await instead of callbacks for filesystem calls
+    'node/prefer-promises/fs': ['error'],
+    // Use async await instead of callbacks for dns calls
+    'node/prefer-promises/dns': ['error'],
 
     /* Code style *****************************************************************/
     'prettier/prettier': [

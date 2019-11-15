@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/bigpopakap/shared-node-tools"
   },
+  "engines": {
+    "node": ">=12.12"
+  },
   "scripts": {
     "lint": "yarn eslint-bigpopakap",
     "lintfix": "yarn lint --fix",
