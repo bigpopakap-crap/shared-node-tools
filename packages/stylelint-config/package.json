@@ -1,10 +1,10 @@
 {
   "name": "@bigpopakap/stylelint-config",
-  "version": "1.2.2",
+  "version": "1.0.0",
   "description": "Shared Stylelint configurations for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/",
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "repository": {

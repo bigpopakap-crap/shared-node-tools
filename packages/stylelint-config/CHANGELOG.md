@@ -1,3 +1,23 @@
+# @bigpopakap/stylelint-config-v1.0.0 (2019-11-15)
+
+
+### Bug Fixes
+
+* remove the "base" config export ([a394c04](https://github.com/bigpopakap/shared-node-tools/commit/a394c04c57d170d7335307e8184220c8324dd6b6))
+
+
+### Features
+
+* publish to Github Packages ([14242d1](https://github.com/bigpopakap/shared-node-tools/commit/14242d1dcdd4e17571cd80713979e971dd855389)), closes [#86](https://github.com/bigpopakap/shared-node-tools/issues/86)
+
+
+### BREAKING CHANGES
+
+* You will no longer be able to import the /base configuration directly. Use one of
+the environment-specific flavors instead.
+* This package is now being published to Github Packages. You should update your
+.eslintrc file with the updated name of the package to extend from (described int he updated README)
+
 # [stylelint-config-bigpopakap-v1.2.2](https://github.com/bigpopakap/shared-node-tools/compare/v1.2.1-stylelint-config-bigpopakap...v1.2.2-stylelint-config-bigpopakap) (2019-11-14)
 
 
