@@ -29,14 +29,6 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v1
 
-      # Skip build if requested by commit message. This helps semantic-release.
-      - name: Skip build if requested
-        uses: teaminkling/skip-commit@master
-        with:
-          commit-filter: '[skip ci], automated' # [skip ci] is what semantic-release uses
-          always-allow-tags: true
-          ref: ${{ github.ref }}
-
       # Installation
       - name: Read .nvmrc
         run: echo ::set-output name=NVMRC::$(cat .nvmrc)
