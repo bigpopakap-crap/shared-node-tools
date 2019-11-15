@@ -30,22 +30,13 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ steps.nvm.outputs.NVMRC }}
-
-    # Testing steps
     - name: Install
       run: yarn install
+
+    # Tests
     - name: Lint commit messages
       uses: wagoid/commitlint-github-action@v1.2.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Lint code
       run: yarn lint
-
-    # Publishing steps
-    - name: Publish
-      if: success() # Very important to make sure we don't publish if tests/linting/build fails!
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the github_token as the npm_token to publish to Github Packages
-      run: yarn release-all # semantic-release will safely skip publishing if we're not on the master branch
-                            # running this in all branches still runs some validation steps, so that's useful
