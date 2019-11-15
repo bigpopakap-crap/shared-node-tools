@@ -5,6 +5,7 @@ module.exports = {
     'prettier/@typescript-eslint',
     'plugin:import/errors',
     'plugin:prettier/recommended',
+    'plugin:eslint-comments/recommended',
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
@@ -63,6 +64,9 @@ module.exports = {
     'no-await-in-loop': 'error',
     'no-return-await': 'error',
     'require-await': 'error',
+
+    // comments including "eslint-disable"
+    'eslint-comments/no-unused-disable': 'error',
 
     // code style
     'prettier/prettier': [
