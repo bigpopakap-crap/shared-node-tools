@@ -45,6 +45,8 @@ module.exports = {
       },
     ],
     'import/no-duplicates': 'error',
+    'import/no-self-import': 'error',
+    'import/no-cycle': 'error',
 
     /* Absolute import rules ********************************************************/
     'absolute-import/no-relative-path': 'error',
