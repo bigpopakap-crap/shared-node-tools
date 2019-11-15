@@ -1,8 +1,11 @@
 name: Node CI
 
 on:
-  push: {}
-  pull_request: {}
+  push:
+    branches:
+      - master
+  pull_request: {} # We must build on pull request so that commitlint can know what range of commits to analyze
+                   # and pushes to a branch can only analyze the most recent commit.
   schedule:
     - cron:  '0 */1 * * *' # Every hour, generated with https://crontab.guru/
 
