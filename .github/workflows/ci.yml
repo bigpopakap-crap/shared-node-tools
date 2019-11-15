@@ -25,6 +25,11 @@ jobs:
       CI: true
 
     steps:
+      - name: Skip build if requested
+        env:
+          COMMIT_FILTER: '[skip ci]' # This is what semantic-release uses in its version bump commit
+        uses: veggiemonk/skip-commit@master
+
       # Setup steps
       - name: Git checkout
         uses: actions/checkout@v1
