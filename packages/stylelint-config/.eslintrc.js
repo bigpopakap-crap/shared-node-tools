@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'bigpopakap/node'
+    '@bigpopakap/eslint-config/node'
   ],
   rules: {
     // Since this repo is mostly configs written in Javascript instead of Typescript

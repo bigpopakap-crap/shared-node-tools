@@ -5,6 +5,8 @@ module.exports = {
     'prettier/@typescript-eslint',
     'plugin:import/errors',
     'plugin:prettier/recommended',
+    'plugin:eslint-comments/recommended',
+    'plugin:node/recommended',
   ],
   parser: '@typescript-eslint/parser',
   plugins: [
@@ -29,12 +31,12 @@ module.exports = {
     },
   },
   rules: {
-    // replace the base rule with the typescript one so that it knows when type imports are used
+    // Replace the base rule with the typescript one so that it knows when type imports are used
     'no-unused-vars': 'off',
     'typescript/no-unused-vars': 'error',
     '@typescript-eslint/no-unused-vars': 'error',
 
-    // import rules
+    /* Import rules ******************************************************************/
     'import/order': ['error', { 'newlines-between': 'always' }],
     'no-restricted-imports': [
       'error',
@@ -44,27 +46,50 @@ module.exports = {
       },
     ],
     'import/no-duplicates': 'error',
+    'import/no-self-import': 'error',
+    'import/no-cycle': 'error',
 
-    // absolute imports
+    /* Absolute import rules ********************************************************/
     'absolute-import/no-relative-path': 'error',
     'absolute-import/no-unresolved': 'error',
 
-    // explicit function return types
+    /* Explicit return types ********************************************************/
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       {
-        // allow something like `node.addEventListener('click', () => {});`
-        // see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md#allowexpressions
+        // Allow something like `node.addEventListener('click', () => {});`
+        // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-function-return-type.md#allowexpressions
         allowExpressions: true,
       },
     ],
 
-    // async/await
+    /* Async/await *****************************************************************/
     'no-await-in-loop': 'error',
     'no-return-await': 'error',
     'require-await': 'error',
 
-    // code style
+    /* Comments disabling Eslint **************************************************/
+    'eslint-comments/no-unused-disable': 'error',
+
+    /* Node things ****************************************************************/
+    // Use module.exports instead of exports directly
+    'node/exports-style': ['error', 'module.exports'],
+    // Never allow using file extensions in import statements
+    'node/file-extension-in-import': ['error', 'never'],
+    // Always use a global var for "console" without importing it
+    'node/prefer-global/console': ['error', 'always'],
+    // Always use a global var for "process" without importing it
+    'node/prefer-global/process': ['error', 'always'],
+    // Always require importing UrlSearchParams from 'url'
+    'node/prefer-global/url-search-params': ['error', 'never'],
+    // Always require importing URL from 'url'
+    'node/prefer-global/url': ['error', 'never'],
+    // Use async await instead of callbacks for filesystem calls
+    'node/prefer-promises/fs': ['error'],
+    // Use async await instead of callbacks for dns calls
+    'node/prefer-promises/dns': ['error'],
+
+    /* Code style *****************************************************************/
     'prettier/prettier': [
       'error',
       {
