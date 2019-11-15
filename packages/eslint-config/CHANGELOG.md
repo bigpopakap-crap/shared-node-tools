@@ -1,3 +1,23 @@
+# @bigpopakap/eslint-config-v1.0.0 (2019-11-15)
+
+
+### Bug Fixes
+
+* remove the "base" config export ([a394c04](https://github.com/bigpopakap/shared-node-tools/commit/a394c04c57d170d7335307e8184220c8324dd6b6))
+
+
+### Features
+
+* publish to Github Packages ([3863fc0](https://github.com/bigpopakap/shared-node-tools/commit/3863fc02e8d9a1258816975d453a438c1d64f0f1)), closes [#86](https://github.com/bigpopakap/shared-node-tools/issues/86)
+
+
+### BREAKING CHANGES
+
+* You will no longer be able to import the /base configuration directly. Use one of
+the environment-specific flavors instead.
+* This package is now being published to Github Packages. You should update your
+.eslintrc file with the updated name of the package to extend from (described int he updated README)
+
 # [eslint-config-bigpopakap-v2.0.3](https://github.com/bigpopakap/shared-node-tools/compare/v2.0.2-eslint-config-bigpopakap...v2.0.3-eslint-config-bigpopakap) (2019-11-14)
 
 
