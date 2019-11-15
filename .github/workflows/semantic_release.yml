@@ -1,0 +1,39 @@
+name: Semantic Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  semantic_release:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: true
+
+    env:
+      CI: true
+
+    steps:
+      # Setup steps
+      - name: Git checkout
+        uses: actions/checkout@v1
+      - name: Read .nvmrc
+        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+        id: nvm
+      - name: Use Node.js ${{ steps.nvm.outputs.NVMRC }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ steps.nvm.outputs.NVMRC }}
+
+      # Assume that CI has run and passed already 🤞🏾
+
+      # Releasing steps
+      - name: Release
+        if: success() # Very important to make sure we don't release if anything fails before this
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the github_token as the npm_token to publish to Github Packages
+        run: yarn release-all # semantic-release will safely skip publishing if we're not on the master branch
+        # running this in all branches still runs some validation steps, so that's useful
