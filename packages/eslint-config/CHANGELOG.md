@@ -1,3 +1,26 @@
+# [@bigpopakap/eslint-config-v2.0.0](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.0-@bigpopakap/eslint-config...v2.0.0-@bigpopakap/eslint-config) (2019-11-15)
+
+
+### Features
+
+* enable eslint-plugin-eslint-comments rules ([953a1b8](https://github.com/bigpopakap/shared-node-tools/commit/953a1b8d5a280b4979a248abf62528f50f579fcb)), closes [#92](https://github.com/bigpopakap/shared-node-tools/issues/92)
+* enable eslint-plugin-filenames ([d4e692c](https://github.com/bigpopakap/shared-node-tools/commit/d4e692c07387d3ad8c49e02a4ab83e5d66e518ce)), closes [#92](https://github.com/bigpopakap/shared-node-tools/issues/92)
+* enable eslint-plugin-node ([526b27d](https://github.com/bigpopakap/shared-node-tools/commit/526b27d92176414a9024b2d715b75c108f1b366f)), closes [#92](https://github.com/bigpopakap/shared-node-tools/issues/92)
+* enable more import rules as errors ([d062740](https://github.com/bigpopakap/shared-node-tools/commit/d06274030b251bddda1696246229d1988f7332cb)), closes [#92](https://github.com/bigpopakap/shared-node-tools/issues/92)
+
+
+### BREAKING CHANGES
+
+* There are many rules enabled from here, which you may need to fix:
+https://www.npmjs.com/package/eslint-plugin-node
+* You may have to fix the following rules: import/no-self-import and import/no-cycle.
+See https://github.com/benmosher/eslint-plugin-import/tree/master/docs/rules
+* You may need to rename your files and default exports. We enforce kebab-cased
+filenames, and default exports that match (once converted to kebab case).
+See https://www.npmjs.com/package/eslint-plugin-filenames for more info.
+* You may have to fix some of the rules related to improper use of eslint-disable
+comments, described here: https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/
+
 # @bigpopakap/eslint-config-v1.0.0 (2019-11-15)
 
 
