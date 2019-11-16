@@ -13,11 +13,11 @@
   "scripts": {
     "lint": "yarn lerna run lint",
     "lintfix": "yarn lerna run lintfix",
-    "release-all": "yarn workspaces run semantic-release"
+    "release-all": "yarn lerna exec semantic-release"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lerna run --concurrency 1 --stream precommit",
+      "pre-commit": "yarn lerna run --concurrency 1 --stream precommit",
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
