@@ -1,15 +1,9 @@
 name: CI
 
 on:
-  push:
-    # Only build pushes to the master branch. Other branches will be taken care of as pull_requests
-    # Note that this means we don't run this when tags are pushed.
-    branches:
-      - master
-
-  # We must build on pull request so that commitlint can know what range of commits to analyze
-  # and pushes to a branch can only analyze the most recent commit.
-  pull_request: {}
+  # We have to run on pushes to master so that autopublishing happens
+  # We have to run on pushes to other branches to that pull request builds re-trigger
+  push: {}
 
   # Run on a schedule to make sure nothing funny happens even if master is sitting there untouched
   schedule:
