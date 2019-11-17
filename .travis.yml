@@ -1,0 +1,15 @@
+language: node_js
+
+jobs:
+  include:
+    - stage: "Automated Tests"
+      name: "List commit messages"
+      script: commitlint-travis
+    - name: "Lint code"
+      script: yarn lint
+    - stage: "Semantic Release"
+      name: "Release"
+      script: yarn release-all
+
+notifications:
+  email: false
