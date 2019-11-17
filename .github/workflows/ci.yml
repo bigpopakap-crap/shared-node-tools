@@ -43,6 +43,8 @@ jobs:
       # Tests
       - name: Lint commit messages
         uses: wagoid/commitlint-github-action@v1.2.2
+        with:
+          configFile: .commitlintrc.js
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to pull the list of commits in a PR
       - name: Lint code
