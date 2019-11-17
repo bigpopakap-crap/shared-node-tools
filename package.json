@@ -13,7 +13,7 @@
   "scripts": {
     "lint": "yarn lerna run lint",
     "lintfix": "yarn lerna run lintfix",
-    "release-all": "yarn lerna exec --concurrency 1 semantic-release"
+    "release-all": "yarn workspaces run semantic-release"
   },
   "husky": {
     "hooks": {
