@@ -1,3 +1,11 @@
+# [@bigpopakap/renovate-config-v1.0.1](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.0-@bigpopakap/renovate-config...v1.0.1-@bigpopakap/renovate-config) (2019-11-17)
+
+
+### Bug Fixes
+
+* push all package versions to 3 ([37328a9](https://github.com/bigpopakap/shared-node-tools/commit/37328a94edebcfb953953a1af7698ddabff7eb4b))
+* reset versions for renovate and stylelint config to fix publishing ([9282af4](https://github.com/bigpopakap/shared-node-tools/commit/9282af4b56d0c08b0ca064cede1d82cce9dcfcc8))
+
 # @bigpopakap/renovate-config-v1.0.0 (2019-11-17)
 
 

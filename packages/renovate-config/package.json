@@ -1,6 +1,6 @@
 {
   "name": "@bigpopakap/renovate-config",
-  "version": "3.0.1",
+  "version": "1.0.1",
   "description": "Shared RenovateBot configurations for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "publishConfig": {
