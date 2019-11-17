@@ -1,3 +1,13 @@
+# [@bigpopakap/eslint-config-v2.0.2](https://github.com/bigpopakap/shared-node-tools/compare/v2.0.1-@bigpopakap/eslint-config...v2.0.2-@bigpopakap/eslint-config) (2019-11-17)
+
+
+### Bug Fixes
+
+* **readme:** update readme ([10bac1c](https://github.com/bigpopakap/shared-node-tools/commit/10bac1c4ef35603f9ee30be0af283e28f61b7749))
+* update README with instrutions to authenticate Github Packages ([bcde299](https://github.com/bigpopakap/shared-node-tools/commit/bcde2999bc008daf6f62833ea42a5edf4e76dd88))
+* **deps:** update eslint-config-prettier to v6.6.0 ([71c18a2](https://github.com/bigpopakap/shared-node-tools/commit/71c18a2512197910bb4b2f46836da4c9174012e3))
+* **deps:** update yargs to v15 ([1ab40e9](https://github.com/bigpopakap/shared-node-tools/commit/1ab40e94f2cbe0f2f5446f85be8e3f2d362573b8))
+
 # [@bigpopakap/eslint-config-v2.0.2](https://github.com/bigpopakap/shared-node-tools/compare/v2.0.1-@bigpopakap/eslint-config...v2.0.2-@bigpopakap/eslint-config) (2019-11-16)
 
 
