@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.0.1](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.0-@bigpopakap/eslint-config...v1.0.1-@bigpopakap/eslint-config) (2019-11-17)
+
+
+### Bug Fixes
+
+* push all package versions to 3 ([37328a9](https://github.com/bigpopakap/shared-node-tools/commit/37328a94edebcfb953953a1af7698ddabff7eb4b))
+
 # @bigpopakap/eslint-config-v1.0.0 (2019-11-17)
 
 
