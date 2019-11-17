@@ -1,3 +1,10 @@
+# [@bigpopakap/renovate-config-v2.0.1](https://github.com/bigpopakap/shared-node-tools/compare/v2.0.0-@bigpopakap/renovate-config...v2.0.1-@bigpopakap/renovate-config) (2019-11-17)
+
+
+### Bug Fixes
+
+* update README with instrutions to authenticate Github Packages ([bcde299](https://github.com/bigpopakap/shared-node-tools/commit/bcde2999bc008daf6f62833ea42a5edf4e76dd88))
+
 # [@bigpopakap/renovate-config-v2.0.0](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.0-@bigpopakap/renovate-config...v2.0.0-@bigpopakap/renovate-config) (2019-11-15)
 
 
