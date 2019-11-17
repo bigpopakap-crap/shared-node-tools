@@ -1,3 +1,10 @@
+# [@bigpopakap/stylelint-config-v2.0.1](https://github.com/bigpopakap/shared-node-tools/compare/v2.0.0-@bigpopakap/stylelint-config...v2.0.1-@bigpopakap/stylelint-config) (2019-11-17)
+
+
+### Bug Fixes
+
+* **deps:** update yargs to v15 ([1ab40e9](https://github.com/bigpopakap/shared-node-tools/commit/1ab40e94f2cbe0f2f5446f85be8e3f2d362573b8))
+
 # [@bigpopakap/stylelint-config-v2.0.0](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.0-@bigpopakap/stylelint-config...v2.0.0-@bigpopakap/stylelint-config) (2019-11-15)
 
 
