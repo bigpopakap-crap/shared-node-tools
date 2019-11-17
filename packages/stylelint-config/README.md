@@ -7,7 +7,7 @@ Shared Stylelint configurations for bigpopakap's personal projects.
 
 ## Installation
 
-First, make sure to authenticate [Github Packages][github-packages-setup].
+First, authenticate [Github Packages][github-packages-setup] and add it to your local `npmrc`.
 
 ```bash
 yarn add -D @bigpopakap/stylelint-config

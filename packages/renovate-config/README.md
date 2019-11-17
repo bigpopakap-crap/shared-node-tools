@@ -11,10 +11,12 @@ Follow the [RenovateBot installation instructions][renovate-installation] to set
 
 ## Configuration
 
-First, make sure to authenticate [Github Packages][github-packages-setup].
+First, authenticate [Github Packages][github-packages-setup] and add it to your local `npmrc`.
+
 ```bash
 yarn add -D @bigpopakap/renovate-config
 ```
+
 Adding the package is as a dependency is not a requirement, since Renovate will pull the configuration package itself. However, it is useful to formally document the dependency.
 
 Add the following `.renovaterc.json` to your project.
