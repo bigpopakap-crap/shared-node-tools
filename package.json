@@ -35,7 +35,7 @@
     "cz-conventional-changelog": "3.0.2",
     "husky": "3.1.0",
     "lerna": "3.18.4",
-    "semantic-release": "15.13.30",
+    "semantic-release": "15.13.31",
     "semantic-release-monorepo": "6.1.1",
     "semantic-release-monorepo-hooks": "2.9.5",
     "semantic-release-plugin-decorators": "2.0.0"
