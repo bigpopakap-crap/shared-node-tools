@@ -1,3 +1,10 @@
+# [@bigpopakap/stylelint-config-v1.0.2](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.1-@bigpopakap/stylelint-config...v1.0.2-@bigpopakap/stylelint-config) (2019-11-24)
+
+
+### Bug Fixes
+
+* **deps:** update stylelint-processor-styled-components to v1.9.0 ([1fa3db6](https://github.com/bigpopakap/shared-node-tools/commit/1fa3db64c10bb5925d446b206221526f5908d6dc))
+
 # [@bigpopakap/stylelint-config-v1.0.1](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.0-@bigpopakap/stylelint-config...v1.0.1-@bigpopakap/stylelint-config) (2019-11-19)
 
 
