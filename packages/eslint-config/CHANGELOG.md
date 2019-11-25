@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.0.8](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.7-@bigpopakap/eslint-config...v1.0.8-@bigpopakap/eslint-config) (2019-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update eslint to v6.7.1 ([d24b65a](https://github.com/bigpopakap/shared-node-tools/commit/d24b65a0f53e19b68b0380a760b15e99ff36efd9))
+
 # [@bigpopakap/eslint-config-v1.0.7](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.6-@bigpopakap/eslint-config...v1.0.7-@bigpopakap/eslint-config) (2019-11-25)
 
 
