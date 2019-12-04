@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.0.13](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.12-@bigpopakap/eslint-config...v1.0.13-@bigpopakap/eslint-config) (2019-12-04)
+
+
+### Bug Fixes
+
+* **deps:** update typescript to v3.7.3 ([cc05888](https://github.com/bigpopakap/shared-node-tools/commit/cc05888344abbb47f770adb5ca42e26fff4f5e65))
+
 # [@bigpopakap/eslint-config-v1.0.12](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.11-@bigpopakap/eslint-config...v1.0.12-@bigpopakap/eslint-config) (2019-12-02)
 
 
