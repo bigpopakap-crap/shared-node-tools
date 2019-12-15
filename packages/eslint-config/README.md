@@ -7,8 +7,6 @@ Shared ESLint configurations for bigpopakap's personal projects.
 
 ## Installation
 
-First, authenticate [Github Packages][github-packages-setup] and add it to your local `npmrc`.
-
 ```bash
 yarn add -D @bigpopakap/eslint-config
 ```
@@ -56,5 +54,3 @@ You may want to add the following scripts to your `package.json`:
   }
 }
 ```
-
-[github-packages-setup]: https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages

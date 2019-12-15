@@ -4,7 +4,6 @@
   "description": "Shared RenovateBot configurations for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "repository": {
