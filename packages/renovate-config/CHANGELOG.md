@@ -1,3 +1,10 @@
+# [@bigpopakap/renovate-config-v1.0.3](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.2-@bigpopakap/renovate-config...v1.0.3-@bigpopakap/renovate-config) (2019-12-15)
+
+
+### Bug Fixes
+
+* bump versions by updating package descriptions ([d50430e](https://github.com/bigpopakap/shared-node-tools/commit/d50430ed77eeacf40005d0b9f8db31682c7b740b))
+
 # [@bigpopakap/renovate-config-v1.0.2](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.1-@bigpopakap/renovate-config...v1.0.2-@bigpopakap/renovate-config) (2019-12-15)
 
 
