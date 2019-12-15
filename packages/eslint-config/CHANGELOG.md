@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.0.18](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.17-@bigpopakap/eslint-config...v1.0.18-@bigpopakap/eslint-config) (2019-12-15)
+
+
+### Bug Fixes
+
+* **registry:** move back to the npmjs registry ([24c3c3c](https://github.com/bigpopakap/shared-node-tools/commit/24c3c3c2990c70077d3ad1f3c564168e88d99875))
+
 # [@bigpopakap/eslint-config-v1.0.17](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.16-@bigpopakap/eslint-config...v1.0.17-@bigpopakap/eslint-config) (2019-12-15)
 
 
