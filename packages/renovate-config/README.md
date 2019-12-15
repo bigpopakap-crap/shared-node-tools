@@ -11,8 +11,6 @@ Follow the [RenovateBot installation instructions][renovate-installation] to set
 
 ## Configuration
 
-First, authenticate [Github Packages][github-packages-setup] and add it to your local `npmrc`.
-
 ```bash
 yarn add -D @bigpopakap/renovate-config
 ```
@@ -27,6 +25,5 @@ Add the following `.renovaterc.json` to your project.
 ```
 And and add any other configurations you need specific to that repo.
 
-[github-packages-setup]: https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages
 [renovate-installation]: https://docs.renovatebot.com/
 [renovate-config-options]: https://docs.renovatebot.com/configuration-options/
