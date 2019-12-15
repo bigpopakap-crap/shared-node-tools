@@ -1,7 +1,7 @@
 {
   "name": "@bigpopakap/eslint-config",
   "version": "1.0.18",
-  "description": "Shared ESLint configurations for bigpopakap's personal projects",
+  "description": "ESLint configuration for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "publishConfig": {
     "access": "public"
