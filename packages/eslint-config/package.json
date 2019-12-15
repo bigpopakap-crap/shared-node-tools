@@ -1,6 +1,6 @@
 {
   "name": "@bigpopakap/eslint-config",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "ESLint configuration for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "publishConfig": {
