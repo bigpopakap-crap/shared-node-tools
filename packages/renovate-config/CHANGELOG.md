@@ -1,3 +1,10 @@
+# [@bigpopakap/renovate-config-v1.0.2](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.1-@bigpopakap/renovate-config...v1.0.2-@bigpopakap/renovate-config) (2019-12-15)
+
+
+### Bug Fixes
+
+* **registry:** move back to the npmjs registry ([24c3c3c](https://github.com/bigpopakap/shared-node-tools/commit/24c3c3c2990c70077d3ad1f3c564168e88d99875))
+
 # [@bigpopakap/renovate-config-v1.0.1](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.0-@bigpopakap/renovate-config...v1.0.1-@bigpopakap/renovate-config) (2019-11-17)
 
 
