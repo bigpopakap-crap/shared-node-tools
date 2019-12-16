@@ -9,7 +9,7 @@ module.exports = {
   rules: {
     /* File naming ****************************************************************/
     // Everything should be kebab case by default
-    'filenames/match-regex': ['error', '^[a-z-]+$', true],
+    'filenames/match-regex': ['error', '^[a-z-\\.]+$', true],
     // The default export name, when converted to kebab case, should match the filename
     'filenames/match-exported': ['error', 'kebab'],
   },
