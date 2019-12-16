@@ -55,8 +55,5 @@
         "enabled": true
       }
     }
-  },
-  "devDependencies": {
-    "lint-staged": "9.5.0"
   }
 }

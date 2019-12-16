@@ -29,8 +29,5 @@
     "stylelint-order": "3.1.1",
     "stylelint-processor-styled-components": "1.9.0",
     "yargs": "15.0.2"
-  },
-  "devDependencies": {
-    "lint-staged": "9.5.0"
   }
 }
