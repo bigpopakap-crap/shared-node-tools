@@ -21,4 +21,7 @@ const args = yargs.boolean('fix').default('fix', false).argv;
 const globArg = './**/*.{js,jsx,ts,tsx,scss,css,sass}';
 const fixArg = args.fix ? '--fix' : '';
 
-shell.exec(`yarn stylelint ${globArg} ${fixArg}`);
+const lintResult = shell.exec(`yarn stylelint ${globArg} ${fixArg}`);
+if (lintResult.code !== 0) {
+  throw new Error('stylelint found errors. See above output for details.');
+}
