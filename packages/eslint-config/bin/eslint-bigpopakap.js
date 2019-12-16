@@ -22,4 +22,7 @@ const extArg = `--ext json,js,jsx,ts,d.ts,tsx`;
 const fixArg = args.fix ? '--fix' : '';
 const pathArg = '.';
 
-shell.exec(`yarn eslint ${extArg} ${fixArg} ${pathArg}`);
+const lintResult = shell.exec(`yarn eslint ${extArg} ${fixArg} ${pathArg}`);
+if (lintResult.code !== 0) {
+  throw new Error('eslint found errors. See above output for details.');
+}
