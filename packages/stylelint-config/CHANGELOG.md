@@ -1,3 +1,10 @@
+# [@bigpopakap/stylelint-config-v1.0.5](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.4-@bigpopakap/stylelint-config...v1.0.5-@bigpopakap/stylelint-config) (2019-12-16)
+
+
+### Bug Fixes
+
+* propagate errors from stylelint ([91294b6](https://github.com/bigpopakap/shared-node-tools/commit/91294b643a4af0874a38b76dc627335788e5aa76))
+
 # [@bigpopakap/stylelint-config-v1.0.4](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.3-@bigpopakap/stylelint-config...v1.0.4-@bigpopakap/stylelint-config) (2019-12-15)
 
 
