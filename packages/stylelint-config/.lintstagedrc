@@ -1,6 +1,0 @@
-{
-  "*": [
-    "yarn lintfix",
-    "git add"
-  ]
-}
