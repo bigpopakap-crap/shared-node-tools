@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.0.21](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.20-@bigpopakap/eslint-config...v1.0.21-@bigpopakap/eslint-config) (2019-12-16)
+
+
+### Bug Fixes
+
+* propagate errors from eslint ([513c229](https://github.com/bigpopakap/shared-node-tools/commit/513c229327b97a5e5b69f3e983652c9a54c60420))
+
 # [@bigpopakap/eslint-config-v1.0.20](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.19-@bigpopakap/eslint-config...v1.0.20-@bigpopakap/eslint-config) (2019-12-16)
 
 
