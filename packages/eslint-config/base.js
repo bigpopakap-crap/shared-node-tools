@@ -28,6 +28,11 @@ module.exports = {
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts', '.module.scss'],
       },
+
+      typescript: {
+        alwaysTryTypes: true,
+        // Use <root>/tsconfig.json by default. To override, use the "directory" option. See https://github.com/alexgorbatchev/eslint-import-resolver-typescript
+      },
     },
   },
   rules: {
