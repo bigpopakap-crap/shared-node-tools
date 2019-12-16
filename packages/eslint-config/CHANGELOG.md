@@ -1,3 +1,15 @@
+# [@bigpopakap/eslint-config-v1.1.0](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.21-@bigpopakap/eslint-config...v1.1.0-@bigpopakap/eslint-config) (2019-12-16)
+
+
+### Bug Fixes
+
+* allow "." in filenames/match-regex rule ([a25a43e](https://github.com/bigpopakap/shared-node-tools/commit/a25a43e7252e666a5fa1153b856cc07b22a6ae7f))
+
+
+### Features
+
+* support typescript type imports ([255298d](https://github.com/bigpopakap/shared-node-tools/commit/255298da764eb552f6cce4b7f62d6b82759a626e))
+
 # [@bigpopakap/eslint-config-v1.0.21](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.20-@bigpopakap/eslint-config...v1.0.21-@bigpopakap/eslint-config) (2019-12-16)
 
 
