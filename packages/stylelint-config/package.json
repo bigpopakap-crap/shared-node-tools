@@ -1,6 +1,6 @@
 {
   "name": "@bigpopakap/stylelint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Stylelint configuration for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "publishConfig": {
