@@ -45,6 +45,6 @@
     "prettier": "1.19.1",
     "shelljs": "0.8.3",
     "typescript": "3.7.4",
-    "yargs": "15.0.2"
+    "yargs": "15.1.0"
   }
 }
