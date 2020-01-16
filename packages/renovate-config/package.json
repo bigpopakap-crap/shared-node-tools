@@ -1,8 +1,15 @@
 {
   "name": "@bigpopakap/renovate-config",
+  "license": "UNLICENSED",
   "version": "1.0.3",
   "description": "RenovateBot configuration for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
+  "keywords": [
+    "bigpopakap",
+    "Renovate",
+    "RenovateBot",
+    "automation"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -10,6 +17,7 @@
     "type": "git",
     "url": "https://github.com/bigpopakap/shared-node-tools"
   },
+  "bugs": "https://github.com/bigpopakap/shared-node-tools/issues",
   "engines": {
     "node": ">=12.12"
   },
