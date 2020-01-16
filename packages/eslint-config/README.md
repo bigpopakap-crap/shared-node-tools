@@ -50,7 +50,7 @@ You may want to add the following scripts to your `package.json`:
     "lint": "npm-run-all -c lint:*",
     "lintfix": "npm-run-all -c lint:*:fix",
     "lint:js": "yarn eslint-bigpopakap",
-    "lint:js:fix": "yarn lint:js --fix",
+    "lint:js:fix": "yarn lint:js --fix"
   }
 }
 ```
