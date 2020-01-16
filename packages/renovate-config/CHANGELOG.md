@@ -1,3 +1,11 @@
+# [@bigpopakap/renovate-config-v1.0.4](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.3-@bigpopakap/renovate-config...v1.0.4-@bigpopakap/renovate-config) (2020-01-16)
+
+
+### Bug Fixes
+
+* **package.json:** add directory to package.json within monorepo ([85e9ef9](https://github.com/bigpopakap/shared-node-tools/commit/85e9ef98d73803d01904b888e9cf6c4f8a1ae084)), closes [/github.com/renovatebot/renovate/issues/2926#issuecomment-575094237](https://github.com//github.com/renovatebot/renovate/issues/2926/issues/issuecomment-575094237)
+* **package.json:** add license, keywords and bug tracker link ([9d795b1](https://github.com/bigpopakap/shared-node-tools/commit/9d795b1a2fdcbd4f8096a1eafe25ff514fa5d33d))
+
 # [@bigpopakap/renovate-config-v1.0.3](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.2-@bigpopakap/renovate-config...v1.0.3-@bigpopakap/renovate-config) (2019-12-15)
 
 
