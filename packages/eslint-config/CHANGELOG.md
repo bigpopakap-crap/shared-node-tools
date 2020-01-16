@@ -1,3 +1,12 @@
+# [@bigpopakap/eslint-config-v1.1.15](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.14-@bigpopakap/eslint-config...v1.1.15-@bigpopakap/eslint-config) (2020-01-16)
+
+
+### Bug Fixes
+
+* **package.json:** add directory to package.json within monorepo ([85e9ef9](https://github.com/bigpopakap/shared-node-tools/commit/85e9ef98d73803d01904b888e9cf6c4f8a1ae084)), closes [/github.com/renovatebot/renovate/issues/2926#issuecomment-575094237](https://github.com//github.com/renovatebot/renovate/issues/2926/issues/issuecomment-575094237)
+* **package.json:** add license, keywords and bug tracker link ([9d795b1](https://github.com/bigpopakap/shared-node-tools/commit/9d795b1a2fdcbd4f8096a1eafe25ff514fa5d33d))
+* **readme:** fix erroneous trailing comma in package.json snippet ([4d21a9e](https://github.com/bigpopakap/shared-node-tools/commit/4d21a9efd7aa893b5fc7f8672c28b8626a87f9fd))
+
 # [@bigpopakap/eslint-config-v1.1.14](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.13-@bigpopakap/eslint-config...v1.1.14-@bigpopakap/eslint-config) (2020-01-16)
 
 
