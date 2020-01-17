@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.17](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.16-@bigpopakap/eslint-config...v1.1.17-@bigpopakap/eslint-config) (2020-01-17)
+
+
+### Bug Fixes
+
+* **package.json:** update repository.url to include ".git" suffix ([8da9c22](https://github.com/bigpopakap/shared-node-tools/commit/8da9c220403ca3a06c2921e3ffc86a1dbeb5ee34))
+
 # [@bigpopakap/eslint-config-v1.1.16](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.15-@bigpopakap/eslint-config...v1.1.16-@bigpopakap/eslint-config) (2020-01-16)
 
 
