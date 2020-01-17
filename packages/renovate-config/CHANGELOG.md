@@ -1,3 +1,10 @@
+# [@bigpopakap/renovate-config-v1.0.5](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.4-@bigpopakap/renovate-config...v1.0.5-@bigpopakap/renovate-config) (2020-01-17)
+
+
+### Bug Fixes
+
+* **package.json:** update repository.url to include ".git" suffix ([8da9c22](https://github.com/bigpopakap/shared-node-tools/commit/8da9c220403ca3a06c2921e3ffc86a1dbeb5ee34))
+
 # [@bigpopakap/renovate-config-v1.0.4](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.3-@bigpopakap/renovate-config...v1.0.4-@bigpopakap/renovate-config) (2020-01-16)
 
 
