@@ -32,6 +32,9 @@
       "extends": [
         "config:base"
       ],
+      "reviewers": [
+        "bigpopakap"
+      ],
       "assignees": [
         "bigpopakap"
       ],
@@ -40,7 +43,6 @@
       "commitBodyTable": true,
       "commitMessageTopic": "{{depName}}",
       "separateMultipleMajor": true,
-      "stabilityDays": 3,
       "automerge": true,
       "peerDependencies": {
         "enabled": true
@@ -50,7 +52,8 @@
           "updateTypes": [
             "major"
           ],
-          "automerge": false
+          "automerge": true,
+          "stabilityDays": 3
         },
         {
           "packagePatterns": [
