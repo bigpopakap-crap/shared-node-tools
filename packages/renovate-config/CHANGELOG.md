@@ -1,3 +1,10 @@
+# [@bigpopakap/renovate-config-v1.1.0](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.5-@bigpopakap/renovate-config...v1.1.0-@bigpopakap/renovate-config) (2020-01-22)
+
+
+### Features
+
+* **renovate-config:** tweak bigpopakap renovate config ([c367511](https://github.com/bigpopakap/shared-node-tools/commit/c3675115b2095af08947fdd941ec5b1e11ad1659))
+
 # [@bigpopakap/renovate-config-v1.0.5](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.4-@bigpopakap/renovate-config...v1.0.5-@bigpopakap/renovate-config) (2020-01-17)
 
 

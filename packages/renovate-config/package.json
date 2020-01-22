@@ -1,7 +1,7 @@
 {
   "name": "@bigpopakap/renovate-config",
   "license": "UNLICENSED",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "RenovateBot configuration for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "keywords": [
@@ -32,29 +32,24 @@
       "extends": [
         "config:base"
       ],
-
       "assignees": [
         "bigpopakap"
       ],
-
       "masterIssue": true,
-
       "semanticCommits": true,
       "commitBodyTable": true,
       "commitMessageTopic": "{{depName}}",
-
       "separateMultipleMajor": true,
       "stabilityDays": 3,
-
       "automerge": true,
-
       "peerDependencies": {
         "enabled": true
       },
-
       "packageRules": [
         {
-          "updateTypes": ["major"],
+          "updateTypes": [
+            "major"
+          ],
           "automerge": false
         },
         {
