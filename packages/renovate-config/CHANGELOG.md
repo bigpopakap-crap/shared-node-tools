@@ -1,3 +1,10 @@
+# [@bigpopakap/renovate-config-v1.2.0](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.0-@bigpopakap/renovate-config...v1.2.0-@bigpopakap/renovate-config) (2020-01-22)
+
+
+### Features
+
+* **renovate-config/bigpopakap:** update automerge behavior ([2fb6065](https://github.com/bigpopakap/shared-node-tools/commit/2fb6065359ec62eb80b0c546011bdfaa2a428482))
+
 # [@bigpopakap/renovate-config-v1.1.0](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.5-@bigpopakap/renovate-config...v1.1.0-@bigpopakap/renovate-config) (2020-01-22)
 
 
