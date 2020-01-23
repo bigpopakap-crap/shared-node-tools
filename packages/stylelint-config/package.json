@@ -31,7 +31,6 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "shelljs": "0.8.3",
     "stylelint": "13.0.0",
     "stylelint-config-standard": "19.0.0",
     "stylelint-config-styled-components": "0.1.1",
