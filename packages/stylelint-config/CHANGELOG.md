@@ -1,3 +1,11 @@
+# [@bigpopakap/stylelint-config-v1.0.12](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.11-@bigpopakap/stylelint-config...v1.0.12-@bigpopakap/stylelint-config) (2020-01-23)
+
+
+### Bug Fixes
+
+* **bin:** properly lint all nested files ([cb98858](https://github.com/bigpopakap/shared-node-tools/commit/cb988589125f3c7b8a08121ee4c4e388cb79aa98))
+* remove styled-components preprocessor ([b10dd05](https://github.com/bigpopakap/shared-node-tools/commit/b10dd054d50b70c900d3e382c4157cf78061a7b8))
+
 # [@bigpopakap/stylelint-config-v1.0.11](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.10-@bigpopakap/stylelint-config...v1.0.11-@bigpopakap/stylelint-config) (2020-01-17)
 
 
