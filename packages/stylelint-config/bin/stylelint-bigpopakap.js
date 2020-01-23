@@ -5,23 +5,22 @@
  */
 'use strict';
 
-const shell = require('shelljs');
 const yargs = require('yargs');
+const { lint } = require('stylelint');
 
-// Exit if there is no yarn installed
-if (!shell.which('yarn')) {
-  shell.echo('yarn not installed');
-  shell.exit(1);
-}
+const FILE_EXTENSIONS = ['js', 'jsx', 'ts', 'tsx', 'scss', 'css', 'sass'];
 
 // Parse the command line arguments
 const args = yargs.boolean('fix').default('fix', false).argv;
 
-// Prepare the arguments to pass to eslint
-const globArg = './**/*.{js,jsx,ts,tsx,scss,css,sass}';
-const fixArg = args.fix ? '--fix' : '';
+(async () => {
+  const result = await lint({
+    fix: args.fix,
+    files: FILE_EXTENSIONS.map(ext => `**/*.${ext}`),
+    formatter: 'string',
+  });
 
-const lintResult = shell.exec(`yarn stylelint ${globArg} ${fixArg}`);
-if (lintResult.code !== 0) {
-  throw new Error('stylelint found errors. See above output for details.');
-}
+  if (result.errored) {
+    throw new Error(result.output);
+  }
+})();
