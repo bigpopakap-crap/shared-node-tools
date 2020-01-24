@@ -39,6 +39,6 @@
     "semantic-release": "16.0.3",
     "semantic-release-monorepo": "6.1.1",
     "semantic-release-monorepo-hooks": "2.9.5",
-    "semantic-release-plugin-decorators": "2.0.0"
+    "semantic-release-plugin-decorators": "2.0.1"
   }
 }
