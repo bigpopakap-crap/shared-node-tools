@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.37](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.36-@bigpopakap/eslint-config...v1.1.37-@bigpopakap/eslint-config) (2020-02-26)
+
+
+### Bug Fixes
+
+* **deps:** update babel-eslint to v10.1.0 ([1f3b35a](https://github.com/bigpopakap/shared-node-tools/commit/1f3b35a19d30f335fe2b4da7022a42128ab62443))
+
 # [@bigpopakap/eslint-config-v1.1.36](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.35-@bigpopakap/eslint-config...v1.1.36-@bigpopakap/eslint-config) (2020-02-24)
 
 
