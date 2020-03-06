@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.43](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.42-@bigpopakap/eslint-config...v1.1.43-@bigpopakap/eslint-config) (2020-03-06)
+
+
+### Bug Fixes
+
+* **deps:** update eslint-plugin-react to v7.19.0 ([0b18e70](https://github.com/bigpopakap/shared-node-tools/commit/0b18e70d87c80bcc0376f3ffc1532357b2d41e6a))
+
 # [@bigpopakap/eslint-config-v1.1.42](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.41-@bigpopakap/eslint-config...v1.1.42-@bigpopakap/eslint-config) (2020-03-02)
 
 
