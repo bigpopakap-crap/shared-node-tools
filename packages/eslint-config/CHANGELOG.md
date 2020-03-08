@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.44](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.43-@bigpopakap/eslint-config...v1.1.44-@bigpopakap/eslint-config) (2020-03-08)
+
+
+### Bug Fixes
+
+* **deps:** update yargs to v15.3.0 ([647f7c0](https://github.com/bigpopakap/shared-node-tools/commit/647f7c044e5ab94106d6210943dffc94bed6483d))
+
 # [@bigpopakap/eslint-config-v1.1.43](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.42-@bigpopakap/eslint-config...v1.1.43-@bigpopakap/eslint-config) (2020-03-06)
 
 
