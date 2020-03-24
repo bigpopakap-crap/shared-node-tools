@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.56](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.55-@bigpopakap/eslint-config...v1.1.56-@bigpopakap/eslint-config) (2020-03-24)
+
+
+### Bug Fixes
+
+* **deps:** update eslint-plugin-flowtype to v4.7.0 ([9936526](https://github.com/bigpopakap/shared-node-tools/commit/9936526e11c46e2904716f0e041b6615b79a9447))
+
 # [@bigpopakap/eslint-config-v1.1.55](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.54-@bigpopakap/eslint-config...v1.1.55-@bigpopakap/eslint-config) (2020-03-23)
 
 
