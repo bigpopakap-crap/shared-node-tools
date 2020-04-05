@@ -8372,10 +8372,10 @@ semantic-release-monorepo-hooks@2.9.5:
     read-pkg "^5.2.0"
     semver "^6.2.0"
 
-semantic-release-monorepo@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-monorepo/-/semantic-release-monorepo-7.0.1.tgz#4294b46a67c57eddc8d344cf6eafc73679b10017"
-  integrity sha512-jvNzSKNfBdYJfqb7JljOqG6UIVQ7adeRNBtkQRCsfRMApe8HkB92DmMVbKwJA5pS1Htcb9547YzN9XSI4uQ1QQ==
+semantic-release-monorepo@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/semantic-release-monorepo/-/semantic-release-monorepo-7.0.2.tgz#d623ee2bb9314ea8d8209b01c11a92865fc7bbd5"
+  integrity sha512-cpmi2d/5YXL9C1KThHhSnR6J1kEurfybc02sh1O8kHFqSspbOPkdkPh+4JtrOSzGaS3zhXmj95LW8F3Y6JHN1w==
   dependencies:
     debug "^3.1.0"
     execa "^0.8.0"
@@ -8383,7 +8383,7 @@ semantic-release-monorepo@7.0.1:
     pkg-up "^2.0.0"
     ramda "^0.25.0"
     read-pkg "^3.0.0"
-    semantic-release-plugin-decorators "^2.1.0"
+    semantic-release-plugin-decorators "^3.0.0"
 
 semantic-release-plugin-decorators@2.1.1:
   version "2.1.1"
@@ -8393,13 +8393,10 @@ semantic-release-plugin-decorators@2.1.1:
     import-from "^2.1.0"
     lodash "^4.17.15"
 
-semantic-release-plugin-decorators@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-plugin-decorators/-/semantic-release-plugin-decorators-2.1.0.tgz#549f4df27aed20683326c89bbb3cf16fd0a997d0"
-  integrity sha512-QnZ6qUUiVIiMSPh3a2c82Q+qJnSUkDghNOmABV8nfRYdYtJppO5yxXUAcfLVh0Ie/mKPo1YkY4Nl5CSWWTSBwA==
-  dependencies:
-    import-from "^2.1.0"
-    lodash "^4.17.15"
+semantic-release-plugin-decorators@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/semantic-release-plugin-decorators/-/semantic-release-plugin-decorators-3.0.0.tgz#b4cbe9cda7e9e2198caf8103cf56de9742d6f5e4"
+  integrity sha512-BIUUe9gUwH+N5k/fr9KEin/2cU80r62kLBPLS/o9Dl/TK3gNsu4CJgb7SAJyWvoothDRbWLZSgTS3Qz8UJuT/Q==
 
 semantic-release@17.0.4:
   version "17.0.4"
