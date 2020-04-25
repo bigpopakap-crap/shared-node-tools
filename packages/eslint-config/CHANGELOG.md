@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.69](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.68-@bigpopakap/eslint-config...v1.1.69-@bigpopakap/eslint-config) (2020-04-25)
+
+
+### Bug Fixes
+
+* **deps:** update shelljs to v0.8.4 ([66b6608](https://github.com/bigpopakap/shared-node-tools/commit/66b6608589828dc90bf1d321eff723dc9a07787b))
+
 # [@bigpopakap/eslint-config-v1.1.68](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.67-@bigpopakap/eslint-config...v1.1.68-@bigpopakap/eslint-config) (2020-04-21)
 
 
