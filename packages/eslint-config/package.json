@@ -1,7 +1,7 @@
 {
   "name": "@bigpopakap/eslint-config",
   "license": "UNLICENSED",
-  "version": "1.1.76",
+  "version": "1.1.77",
   "description": "ESLint configuration for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "keywords": [
