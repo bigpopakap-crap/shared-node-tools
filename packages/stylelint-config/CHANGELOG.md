@@ -1,3 +1,10 @@
+# [@bigpopakap/stylelint-config-v1.0.28](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.27-@bigpopakap/stylelint-config...v1.0.28-@bigpopakap/stylelint-config) (2020-06-04)
+
+
+### Bug Fixes
+
+* **deps:** update stylelint to v13.6.0 ([7d5b10c](https://github.com/bigpopakap/shared-node-tools/commit/7d5b10cd3bb94b82e92f3877a97133efbeafdab9))
+
 # [@bigpopakap/stylelint-config-v1.0.27](https://github.com/bigpopakap/shared-node-tools/compare/v1.0.26-@bigpopakap/stylelint-config...v1.0.27-@bigpopakap/stylelint-config) (2020-06-02)
 
 
