@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.95](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.94-@bigpopakap/eslint-config...v1.1.95-@bigpopakap/eslint-config) (2020-06-08)
+
+
+### Bug Fixes
+
+* **deps:** update @typescript-eslint/parser to v3.2.0 ([fffdaf0](https://github.com/bigpopakap/shared-node-tools/commit/fffdaf0ba56bba9324c71efd586404b2118961ad))
+
 # [@bigpopakap/eslint-config-v1.1.94](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.93-@bigpopakap/eslint-config...v1.1.94-@bigpopakap/eslint-config) (2020-06-08)
 
 
