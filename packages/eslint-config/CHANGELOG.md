@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.102](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.101-@bigpopakap/eslint-config...v1.1.102-@bigpopakap/eslint-config) (2020-06-27)
+
+
+### Bug Fixes
+
+* **deps:** update eslint-plugin-import to v2.22.0 ([20617af](https://github.com/bigpopakap/shared-node-tools/commit/20617afe07969ddc1efc4c8a743f801a2c52759e))
+
 # [@bigpopakap/eslint-config-v1.1.101](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.100-@bigpopakap/eslint-config...v1.1.101-@bigpopakap/eslint-config) (2020-06-22)
 
 
