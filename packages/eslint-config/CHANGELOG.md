@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.127](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.126-@bigpopakap/eslint-config...v1.1.127-@bigpopakap/eslint-config) (2020-08-14)
+
+
+### Bug Fixes
+
+* **deps:** update eslint-import-resolver-typescript to v2.2.1 ([dc5a59f](https://github.com/bigpopakap/shared-node-tools/commit/dc5a59fa0009d76786731b232d5530e120aa7a27))
+
 # [@bigpopakap/eslint-config-v1.1.126](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.125-@bigpopakap/eslint-config...v1.1.126-@bigpopakap/eslint-config) (2020-08-12)
 
 
