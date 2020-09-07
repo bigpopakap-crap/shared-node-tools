@@ -33,7 +33,7 @@
     "@semantic-release/npm": "7.0.6",
     "@semantic-release/release-notes-generator": "9.0.1",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "4.2.5",
+    "husky": "4.3.0",
     "lerna": "3.22.1",
     "lint-staged": "10.3.0",
     "semantic-release": "17.1.1",
