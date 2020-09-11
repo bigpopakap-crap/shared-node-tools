@@ -1,7 +1,7 @@
 {
   "name": "@bigpopakap/stylelint-config",
   "license": "UNLICENSED",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "Stylelint configuration for bigpopakap's personal projects",
   "homepage": "https://github.com/bigpopakap/shared-node-tools",
   "keywords": [
