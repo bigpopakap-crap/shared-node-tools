@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.146](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.145-@bigpopakap/eslint-config...v1.1.146-@bigpopakap/eslint-config) (2020-09-21)
+
+
+### Bug Fixes
+
+* **deps:** update @typescript-eslint/eslint-plugin to v4.2.0 ([be6c554](https://github.com/bigpopakap/shared-node-tools/commit/be6c55401f4b7c0781c9ff91f97b79020e85c9c3))
+
 # [@bigpopakap/eslint-config-v1.1.145](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.144-@bigpopakap/eslint-config...v1.1.145-@bigpopakap/eslint-config) (2020-09-18)
 
 
