@@ -1,3 +1,10 @@
+# [@bigpopakap/eslint-config-v1.1.150](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.149-@bigpopakap/eslint-config...v1.1.150-@bigpopakap/eslint-config) (2020-09-25)
+
+
+### Bug Fixes
+
+* **deps:** update eslint-config-prettier to v6.12.0 ([778eced](https://github.com/bigpopakap/shared-node-tools/commit/778ecedc3321619743538e542f92b74b4a818500))
+
 # [@bigpopakap/eslint-config-v1.1.149](https://github.com/bigpopakap/shared-node-tools/compare/v1.1.148-@bigpopakap/eslint-config...v1.1.149-@bigpopakap/eslint-config) (2020-09-25)
 
 
