@@ -16,7 +16,7 @@ const args = yargs.boolean('fix').default('fix', false).argv;
 (async () => {
   const result = await lint({
     fix: args.fix,
-    files: FILE_EXTENSIONS.map(ext => `**/*.${ext}`),
+    files: FILE_EXTENSIONS.map((ext) => `**/*.${ext}`),
     formatter: 'string',
   });
 
